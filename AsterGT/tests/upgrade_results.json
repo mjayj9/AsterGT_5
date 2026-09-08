@@ -1,0 +1,35 @@
+{
+  "checks": {
+    "calipers_do_not_spin": true,
+    "camera_limits_0": true,
+    "camera_limits_1": true,
+    "camera_limits_2": true,
+    "camera_limits_3": true,
+    "camera_limits_4": true,
+    "clutched_restart_works": true,
+    "cockpit_visor_visibility_restores": true,
+    "cold_tires_change_braking": true,
+    "four_separate_wheel_pivots": true,
+    "front_wheels_steer": true,
+    "full_manual_engine_stalls": true,
+    "porsche_model_loaded": true,
+    "restart_requires_clutch": true,
+    "restarted_engine_idles": true,
+    "slip_heats_tires": true,
+    "slip_wears_tires": true,
+    "smoothed_camera_cannot_cross_wall": true,
+    "sphere_camera_wall_clearance": true,
+    "tire_service_restores": true,
+    "visual_tire_ground_alignment": true,
+    "wheels_roll_from_angular_velocity": true
+  },
+  "measurements": {
+    "slip_tire_peak_c": 105.334619669401,
+    "slip_tire_wear": 0.0181362634557623,
+    "warm_cold_brake_distance_m": [
+      38.5441093444824,
+      42.4198455810547
+    ],
+    "wheel_ground_error_m": 0.0000025476761174037
+  }
+}
