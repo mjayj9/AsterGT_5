@@ -1,0 +1,230 @@
+{
+  "checks": {
+    "M_switches_to_manual": true,
+    "all_five_cameras_cycle": true,
+    "assist_keys_toggle": true,
+    "automatic_shifts": true,
+    "chase_camera_stops_before_wall": true,
+    "checkpoint_timeout": true,
+    "clutched_keyboard_shift_accepts": true,
+    "duplicate_binding_refused": true,
+    "garage_return_grounded": true,
+    "graphics_presets_change_load": true,
+    "keyboard_accelerates": true,
+    "keyboard_recovery": true,
+    "main_menu_has_six_actions": true,
+    "malformed_settings_safe": true,
+    "manual_no_uncommanded_shift": true,
+    "ordered_checkpoint_finish": true,
+    "pause_stops_physics": true,
+    "paused_position_unchanged": true,
+    "rain_night_keys": true,
+    "rebind_works": true,
+    "render_scale_applied": true,
+    "resume_restores_controls": true,
+    "road_at_least_15km": true,
+    "road_collision_32_locations": true,
+    "spawn_four_contacts": true,
+    "throttle_is_filtered": true,
+    "unclutched_keyboard_shift_refused": true,
+    "vehicle_function_keys": true
+  },
+  "notes": [
+    "Keys were injected as InputEventKey through the Godot input pipeline. Road samples and checkpoint fixtures use controlled resets; this is not a claim of human driving over the complete route."
+  ],
+  "road_length_m": 26037.60546875,
+  "road_samples": [
+    {
+      "contacts": 4,
+      "distance_m": 0.0,
+      "height_error": -0.131016552448273,
+      "pass": true
+    },
+    {
+      "contacts": 4,
+      "distance_m": 813.675170898438,
+      "height_error": -0.131220102310181,
+      "pass": true
+    },
+    {
+      "contacts": 4,
+      "distance_m": 1627.35034179688,
+      "height_error": -0.13119500875473,
+      "pass": true
+    },
+    {
+      "contacts": 4,
+      "distance_m": 2441.02551269531,
+      "height_error": -0.13119512796402,
+      "pass": true
+    },
+    {
+      "contacts": 4,
+      "distance_m": 3254.70068359375,
+      "height_error": -0.131213963031769,
+      "pass": true
+    },
+    {
+      "contacts": 4,
+      "distance_m": 4068.37585449219,
+      "height_error": -0.131127417087555,
+      "pass": true
+    },
+    {
+      "contacts": 4,
+      "distance_m": 4882.05102539063,
+      "height_error": -0.130609035491943,
+      "pass": true
+    },
+    {
+      "contacts": 4,
+      "distance_m": 5695.72619628906,
+      "height_error": -0.130538940429688,
+      "pass": true
+    },
+    {
+      "contacts": 4,
+      "distance_m": 6509.4013671875,
+      "height_error": -0.129829406738281,
+      "pass": true
+    },
+    {
+      "contacts": 4,
+      "distance_m": 7323.07653808594,
+      "height_error": -0.130439758300781,
+      "pass": true
+    },
+    {
+      "contacts": 4,
+      "distance_m": 8136.75170898438,
+      "height_error": -0.13104248046875,
+      "pass": true
+    },
+    {
+      "contacts": 4,
+      "distance_m": 8950.42687988281,
+      "height_error": -0.131057739257813,
+      "pass": true
+    },
+    {
+      "contacts": 4,
+      "distance_m": 9764.10205078125,
+      "height_error": -0.13128662109375,
+      "pass": true
+    },
+    {
+      "contacts": 4,
+      "distance_m": 10577.7772216797,
+      "height_error": -0.131210327148438,
+      "pass": true
+    },
+    {
+      "contacts": 4,
+      "distance_m": 11391.4523925781,
+      "height_error": -0.127273559570313,
+      "pass": true
+    },
+    {
+      "contacts": 4,
+      "distance_m": 12205.1275634766,
+      "height_error": -0.130496978759766,
+      "pass": true
+    },
+    {
+      "contacts": 4,
+      "distance_m": 13018.802734375,
+      "height_error": -0.130748748779297,
+      "pass": true
+    },
+    {
+      "contacts": 4,
+      "distance_m": 13832.4779052734,
+      "height_error": -0.130847930908203,
+      "pass": true
+    },
+    {
+      "contacts": 4,
+      "distance_m": 14646.1530761719,
+      "height_error": -0.131097793579102,
+      "pass": true
+    },
+    {
+      "contacts": 4,
+      "distance_m": 15459.8282470703,
+      "height_error": -0.130859375,
+      "pass": true
+    },
+    {
+      "contacts": 4,
+      "distance_m": 16273.5034179688,
+      "height_error": -0.130641937255859,
+      "pass": true
+    },
+    {
+      "contacts": 4,
+      "distance_m": 17087.1785888672,
+      "height_error": -0.129356384277344,
+      "pass": true
+    },
+    {
+      "contacts": 4,
+      "distance_m": 17900.8537597656,
+      "height_error": -0.129684448242188,
+      "pass": true
+    },
+    {
+      "contacts": 4,
+      "distance_m": 18714.5289306641,
+      "height_error": -0.13165283203125,
+      "pass": true
+    },
+    {
+      "contacts": 4,
+      "distance_m": 19528.2041015625,
+      "height_error": -0.13006591796875,
+      "pass": true
+    },
+    {
+      "contacts": 4,
+      "distance_m": 20341.8792724609,
+      "height_error": -0.128974914550781,
+      "pass": true
+    },
+    {
+      "contacts": 4,
+      "distance_m": 21155.5544433594,
+      "height_error": -0.130157470703125,
+      "pass": true
+    },
+    {
+      "contacts": 4,
+      "distance_m": 21969.2296142578,
+      "height_error": -0.131084442138672,
+      "pass": true
+    },
+    {
+      "contacts": 4,
+      "distance_m": 22782.9047851563,
+      "height_error": -0.131168365478516,
+      "pass": true
+    },
+    {
+      "contacts": 4,
+      "distance_m": 23596.5799560547,
+      "height_error": -0.131252288818359,
+      "pass": true
+    },
+    {
+      "contacts": 4,
+      "distance_m": 24410.2551269531,
+      "height_error": -0.131196975708008,
+      "pass": true
+    },
+    {
+      "contacts": 4,
+      "distance_m": 25223.9302978516,
+      "height_error": -0.130777359008789,
+      "pass": true
+    }
+  ]
+}
