@@ -1,0 +1,57 @@
+Godot Engine v4.6.3.stable.mono.official.7d41c59c4 - https://godotengine.org
+
+ROAD_LENGTH_M=26037.60546875
+ROUTE 4 / 26038 m  1 km/h  lane 0.0
+ROUTE 500 / 26038 m  97 km/h  lane 0.0
+ROUTE 1004 / 26038 m  97 km/h  lane 0.0
+ROUTE 1500 / 26038 m  97 km/h  lane 0.0
+ROUTE 2004 / 26038 m  97 km/h  lane 0.02
+ROUTE 2500 / 26038 m  97 km/h  lane 0.02
+ROUTE 3004 / 26038 m  96 km/h  lane 0.11
+ROUTE 3500 / 26038 m  96 km/h  lane 0.22
+ROUTE 4004 / 26038 m  95 km/h  lane 1.08
+ROUTE 4500 / 26038 m  95 km/h  lane 0.36
+ROUTE 5004 / 26038 m  95 km/h  lane 0.55
+ROUTE 5500 / 26038 m  94 km/h  lane 0.22
+ROUTE 6004 / 26038 m  94 km/h  lane 0.5
+ROUTE 6500 / 26038 m  95 km/h  lane 0.55
+ROUTE 7004 / 26038 m  96 km/h  lane 0.18
+ROUTE 7500 / 26038 m  96 km/h  lane 0.08
+ROUTE 8004 / 26038 m  96 km/h  lane 0.06
+ROUTE 8500 / 26038 m  96 km/h  lane 0.06
+ROUTE 9004 / 26038 m  97 km/h  lane 0.1
+ROUTE 9500 / 26038 m  97 km/h  lane 0.36
+ROUTE 10004 / 26038 m  98 km/h  lane 0.14
+ROUTE 10500 / 26038 m  97 km/h  lane 0.34
+ROUTE 11004 / 26038 m  97 km/h  lane 0.06
+ROUTE 11500 / 26038 m  97 km/h  lane 0.46
+ROUTE 12004 / 26038 m  97 km/h  lane 0.22
+ROUTE 12500 / 26038 m  97 km/h  lane 0.2
+ROUTE 13004 / 26038 m  96 km/h  lane 0.37
+ROUTE 13500 / 26038 m  96 km/h  lane 0.28
+ROUTE 14004 / 26038 m  95 km/h  lane 0.21
+ROUTE 14500 / 26038 m  95 km/h  lane 0.17
+ROUTE 15004 / 26038 m  94 km/h  lane 0.18
+ROUTE 15500 / 26038 m  94 km/h  lane 0.25
+ROUTE 16004 / 26038 m  92 km/h  lane 0.24
+ROUTE 16500 / 26038 m  92 km/h  lane 0.18
+ROUTE 17004 / 26038 m  93 km/h  lane 0.2
+ROUTE 17500 / 26038 m  96 km/h  lane 0.24
+ROUTE 18004 / 26038 m  97 km/h  lane 0.22
+ROUTE 18500 / 26038 m  97 km/h  lane 0.4
+ROUTE 19004 / 26038 m  98 km/h  lane 0.29
+ROUTE 19500 / 26038 m  98 km/h  lane 0.63
+ROUTE 20004 / 26038 m  97 km/h  lane 0.72
+ROUTE 20500 / 26038 m  96 km/h  lane 0.21
+ROUTE 21004 / 26038 m  96 km/h  lane 0.42
+ROUTE 21500 / 26038 m  96 km/h  lane 0.09
+ROUTE 22004 / 26038 m  96 km/h  lane 0.01
+ROUTE 22500 / 26038 m  96 km/h  lane 0.07
+ROUTE 23004 / 26038 m  96 km/h  lane 0.05
+ROUTE 23500 / 26038 m  96 km/h  lane 0.11
+ROUTE 24004 / 26038 m  59 km/h  lane 1.67
+ROUTE 24500 / 26038 m  97 km/h  lane 0.29
+ROUTE 25002 / 26038 m  97 km/h  lane 0.92
+ROUTE 25500 / 26038 m  96 km/h  lane 0.06
+ROUTE 26002 / 26038 m  97 km/h  lane 0.03
+CONTINUOUS_ROUTE_DONE true Completed full continuous loop

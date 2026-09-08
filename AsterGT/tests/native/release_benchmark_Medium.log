@@ -1,0 +1,6 @@
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+Vulkan 1.4.341 - Forward+ - Using Device #0: NVIDIA - NVIDIA GeForce RTX 5060 Laptop GPU
+
+ROAD_LENGTH_M=26037.60546875
+ASTER_READY  route_km=26.03760546875  vehicle=Porsche 992 GT3 R
+{ "preset": "Medium_benchmark", "resolution": "1920x1080", "average_fps": 487.198568264046, "minimum_fps": 85.7780065191285, "one_percent_low_fps": 358.680057388809, "frames": 5851, "renderer": "forward_plus", "adapter": "NVIDIA GeForce RTX 5060 Laptop GPU" }

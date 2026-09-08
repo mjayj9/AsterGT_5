@@ -1,0 +1,25 @@
+Godot Engine v4.6.3.stable.mono.official.7d41c59c4 - https://godotengine.org
+
+CHECK porsche_model_loaded true
+CHECK four_separate_wheel_pivots true
+CHECK visual_tire_ground_alignment true
+CHECK wheels_roll_from_angular_velocity true
+CHECK front_wheels_steer true
+CHECK calipers_do_not_spin true
+CHECK cold_tires_change_braking true
+CHECK slip_heats_tires true
+CHECK slip_wears_tires true
+CHECK tire_service_restores true
+CHECK full_manual_engine_stalls true
+CHECK restart_requires_clutch true
+CHECK clutched_restart_works true
+CHECK restarted_engine_idles true
+CHECK camera_limits_0 true
+CHECK camera_limits_1 true
+CHECK camera_limits_2 true
+CHECK camera_limits_3 true
+CHECK camera_limits_4 true
+CHECK cockpit_visor_visibility_restores true
+CHECK sphere_camera_wall_clearance true
+CHECK smoothed_camera_cannot_cross_wall true
+UPGRADE_DONE true

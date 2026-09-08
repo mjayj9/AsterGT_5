@@ -1,0 +1,15 @@
+{
+  "checks": {
+    "original_geometry_image_buffer_preserved": true,
+    "four_wheel_pivots": true
+  },
+  "source_counts": {
+    "nodes": 336,
+    "meshes": 151,
+    "materials": 89,
+    "images": 34,
+    "animations": 0,
+    "skins": 0
+  },
+  "bin_sha256": "841d825624d4d137b08c2c64719d87b7036097e402ff12a05a8fad0943883fd3"
+}

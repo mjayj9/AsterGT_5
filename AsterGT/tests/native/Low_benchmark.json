@@ -1,0 +1,10 @@
+{
+  "adapter": "NVIDIA GeForce RTX 5060 Laptop GPU",
+  "average_fps": 604.526004117275,
+  "frames": 7255,
+  "minimum_fps": 235.571260306243,
+  "one_percent_low_fps": 433.08791684712,
+  "preset": "Low_benchmark",
+  "renderer": "forward_plus",
+  "resolution": "1920x1080"
+}

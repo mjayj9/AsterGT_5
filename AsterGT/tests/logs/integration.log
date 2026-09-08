@@ -1,0 +1,33 @@
+Godot Engine v4.6.3.stable.mono.official.7d41c59c4 - https://godotengine.org
+
+ROAD_LENGTH_M=26037.60546875
+ASTER_READY  route_km=26.03760546875  vehicle=Porsche 992 GT3 R
+CHECK main_menu_has_six_actions true
+CHECK road_at_least_15km true
+CHECK spawn_four_contacts true
+CHECK throttle_is_filtered true
+CHECK keyboard_accelerates true
+CHECK automatic_shifts true
+CHECK M_switches_to_manual true
+CHECK manual_no_uncommanded_shift true
+CHECK unclutched_keyboard_shift_refused true
+CHECK clutched_keyboard_shift_accepts true
+CHECK assist_keys_toggle true
+CHECK vehicle_function_keys true
+CHECK all_five_cameras_cycle true
+CHECK rain_night_keys true
+CHECK pause_stops_physics true
+CHECK paused_position_unchanged true
+CHECK resume_restores_controls true
+CHECK keyboard_recovery true
+CHECK rebind_works true
+CHECK duplicate_binding_refused true
+CHECK malformed_settings_safe true
+CHECK road_collision_32_locations true
+CHECK ordered_checkpoint_finish true
+CHECK checkpoint_timeout true
+CHECK chase_camera_stops_before_wall true
+CHECK graphics_presets_change_load true
+CHECK render_scale_applied true
+CHECK garage_return_grounded true
+INTEGRATION_DONE true

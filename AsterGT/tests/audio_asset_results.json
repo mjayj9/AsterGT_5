@@ -1,0 +1,115 @@
+{
+  "method": "Periodic six-cylinder harmonic/pulse synthesis, load/coast layers, deterministic band-limited noise, no recordings",
+  "layers": {
+    "engine_850_off": {
+      "samples": 94871,
+      "rate": 48000,
+      "peak": 0.1445512528403465,
+      "rms": 0.07528816390489099,
+      "boundary_step": 0.001748858200213796
+    },
+    "engine_850_on": {
+      "samples": 94871,
+      "rate": 48000,
+      "peak": 0.30037038488796164,
+      "rms": 0.135056599146766,
+      "boundary_step": 0.00014656296446144412
+    },
+    "engine_1800_off": {
+      "samples": 96000,
+      "rate": 48000,
+      "peak": 0.15409064673768605,
+      "rms": 0.08021274145461846,
+      "boundary_step": 0.004399168263118591
+    },
+    "engine_1800_on": {
+      "samples": 96000,
+      "rate": 48000,
+      "peak": 0.32618306736895974,
+      "rms": 0.14669563775389124,
+      "boundary_step": 0.0020967326423168564
+    },
+    "engine_3000_off": {
+      "samples": 96000,
+      "rate": 48000,
+      "peak": 0.17040465577153066,
+      "rms": 0.0880773789216691,
+      "boundary_step": 0.006145713502434244
+    },
+    "engine_3000_on": {
+      "samples": 96000,
+      "rate": 48000,
+      "peak": 0.3476787085718927,
+      "rms": 0.15855315245472693,
+      "boundary_step": 0.007005945285815662
+    },
+    "engine_4500_off": {
+      "samples": 96000,
+      "rate": 48000,
+      "peak": 0.18424278046546685,
+      "rms": 0.09797059198109415,
+      "boundary_step": 0.010649645385385376
+    },
+    "engine_4500_on": {
+      "samples": 96000,
+      "rate": 48000,
+      "peak": 0.3405766733430807,
+      "rms": 0.1708695231238011,
+      "boundary_step": 0.010188026562525931
+    },
+    "engine_6000_off": {
+      "samples": 96000,
+      "rate": 48000,
+      "peak": 0.18797430079272331,
+      "rms": 0.10702869855249317,
+      "boundary_step": 0.014478130950127843
+    },
+    "engine_6000_on": {
+      "samples": 96000,
+      "rate": 48000,
+      "peak": 0.33604153872429765,
+      "rms": 0.17970740774469354,
+      "boundary_step": 0.01459573018988286
+    },
+    "engine_7500_off": {
+      "samples": 96000,
+      "rate": 48000,
+      "peak": 0.19651364976935154,
+      "rms": 0.11529334199626938,
+      "boundary_step": 0.017543862788993198
+    },
+    "engine_7500_on": {
+      "samples": 96000,
+      "rate": 48000,
+      "peak": 0.33639594102227216,
+      "rms": 0.1894874002135387,
+      "boundary_step": 0.017072342976953647
+    },
+    "starter": {
+      "samples": 26400,
+      "rate": 48000,
+      "peak": 0.2500906735314465,
+      "rms": 0.14692923267338678,
+      "boundary_step": 2.929569166795041e-05
+    },
+    "stall": {
+      "samples": 20160,
+      "rate": 48000,
+      "peak": 0.33528236691914626,
+      "rms": 0.09535894765560611,
+      "boundary_step": 0.010333149790434586
+    },
+    "gear": {
+      "samples": 5760,
+      "rate": 48000,
+      "peak": 0.47243710958296836,
+      "rms": 0.057795280220871416,
+      "boundary_step": 0.06950555479253465
+    }
+  },
+  "checks": {
+    "no_clipping": true,
+    "finite_rms": true,
+    "all_12_engine_layers": true
+  }
+}
