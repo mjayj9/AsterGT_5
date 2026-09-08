@@ -20,3 +20,6 @@ export/
 .DS_Store
 Thumbs.db
 *.swp
+
+# Archived Blender intermediates are kept on purpose
+!work/archived_intermediates/**
