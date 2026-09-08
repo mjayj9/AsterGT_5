@@ -1,0 +1,98 @@
+{
+  "checks": {
+    "ABS_reduces_wheel_lock": true,
+    "ESC_reduces_yaw_disturbance": true,
+    "GT_reaches_250kph": true,
+    "TCS_reduces_launch_slip": true,
+    "all_six_gears_used": true,
+    "collision_does_not_tunnel": true,
+    "collision_reduces_speed": true,
+    "full_manual_low_rpm_lug": true,
+    "handbrake_locks_rear": true,
+    "high_speed_corner_stays_upright": true,
+    "high_speed_steering_reduced": true,
+    "neutral_disconnects_drive": true,
+    "neutral_rolls_downhill": true,
+    "park_holds_on_8_degree_slope": true,
+    "rpm_matches_driven_wheels": true,
+    "slope_four_wheel_contact": true,
+    "uphill_launch": true
+  },
+  "measurements": {
+    "abs": [
+      {
+        "active_ticks": 0,
+        "distance_m": 69.8403778076172,
+        "enabled": false,
+        "mean_front_slip": 0.947972809153698
+      },
+      {
+        "active_ticks": 432,
+        "distance_m": 55.8908195495605,
+        "enabled": true,
+        "mean_front_slip": 0.182100744879318
+      }
+    ],
+    "esc": [
+      {
+        "active_ticks": 0,
+        "enabled": false,
+        "integrated_yaw_rad": 2.58651654273272
+      },
+      {
+        "active_ticks": 153,
+        "enabled": true,
+        "integrated_yaw_rad": 1.9996954664588
+      }
+    ],
+    "max_coupled_rpm_relative_error": 0.0461338598202679,
+    "maximum_speed_after_95s_kph": 320.524502563477,
+    "shift_events": [
+      {
+        "from": 1,
+        "rpm": 6909.93820423553,
+        "speed_kph": 63.2935890197754,
+        "to": 2
+      },
+      {
+        "from": 2,
+        "rpm": 6900.4530379573,
+        "speed_kph": 104.08627166748,
+        "to": 3
+      },
+      {
+        "from": 3,
+        "rpm": 6900.4842124858,
+        "speed_kph": 150.267741394043,
+        "to": 4
+      },
+      {
+        "from": 4,
+        "rpm": 6900.0544697391,
+        "speed_kph": 201.341011047363,
+        "to": 5
+      },
+      {
+        "from": 5,
+        "rpm": 6900.08960509278,
+        "speed_kph": 251.692575073242,
+        "to": 6
+      }
+    ],
+    "slope_park_drift_m": 0.0,
+    "tcs": [
+      {
+        "active_ticks": 0,
+        "enabled": false,
+        "mean_rear_slip": 3.07716172352149,
+        "speed_kph": 44.4793235778809
+      },
+      {
+        "active_ticks": 308,
+        "enabled": true,
+        "mean_rear_slip": 0.419891140650745,
+        "speed_kph": 55.3532032012939
+      }
+    ]
+  }
+}
