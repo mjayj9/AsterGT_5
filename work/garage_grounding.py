@@ -1,0 +1,5 @@
+from pathlib import Path
+p=Path('outputs/AsterGT/scripts/main.gd');s=p.read_text(encoding='utf-8').replace('world.player=car;car.freeze=true;car.controls_enabled=false;car.position.y-=.13','world.player=car;car.freeze=false;car.controls_enabled=false;car.launch_hold=true;car.position.y-=.13')
+s=s.replace('get_tree().paused=false;started=false;car.freeze=true;car.controls_enabled=false;car.linear_velocity=Vector3.ZERO\n car.global_transform=world.road_transform(1180,2.8);cam.menu_preview=true;', 'get_tree().paused=false;started=false;car.freeze=false;car.controls_enabled=false;car.launch_hold=true\n car.recover(world.road_transform(1180,2.8));cam.menu_preview=true;')
+p.write_text(s,encoding='utf-8')
+p=Path('outputs/AsterGT/tests/integration_test.gd');s=p.read_text(encoding='utf-8').replace('game.apply_preset(2)\n results','game.apply_preset(2)\n game.to_garage();await frames(180)\n check("garage_return_grounded",game.car.grounded==4 and game.car.speed_kph<.1 and game.cam.menu_preview)\n results');p.write_text(s,encoding='utf-8')
