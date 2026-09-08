@@ -1,0 +1,63 @@
+{
+  "source": {
+    "extras": {
+      "author": "MattDoesBlender (https://sketchfab.com/MattDoesBlender)",
+      "license": "CC-BY-NC-SA-4.0 (http://creativecommons.org/licenses/by-nc-sa/4.0/)",
+      "source": "https://sketchfab.com/3d-models/porsche-992-gt3-r-03ea07f7972648aa9350853b2a1a942a",
+      "title": "porsche_992_gt3_r"
+    },
+    "generator": "Sketchfab-16.72.0",
+    "version": "2.0"
+  },
+  "source_sha256": "9c0f0c4f955e2006ceeac25e1385947b81fb658560d22f17b0116ea28335c255",
+  "scale": 100,
+  "length_m": 4.7678327,
+  "width_m": 2.049064,
+  "centers": {
+    "LF": [
+      -0.8410785308239188,
+      -0.32953291685433167,
+      -1.258314134367239
+    ],
+    "RF": [
+      0.8410785308239188,
+      -0.32953291685433167,
+      -1.258314134367239
+    ],
+    "LR": [
+      -0.8344873003403697,
+      -0.31541288974703335,
+      1.258270146140378
+    ],
+    "RR": [
+      0.8196875865827291,
+      -0.3152977782793838,
+      1.2583581225941
+    ]
+  },
+  "radii": {
+    "LF": 0.3404654039338512,
+    "RF": 0.3404654039338512,
+    "LR": 0.35223328279927474,
+    "RR": 0.3522332678981139
+  },
+  "wheelbase": 2.516584280507617,
+  "steering_center": [
+    -0.3059571913043291,
+    0.0334163718652043,
+    -0.15296965495564813
+  ],
+  "skipped_meshes": [
+    "GEO_RIM_BLUR_LF_EXT_RIM_BLUR_0",
+    "GEO_RIM_STATIC_LF_EXT_RIM_0",
+    "GEO_RIM_BLUR_LR_EXT_RIM_BLUR_0",
+    "GEO_RIM_STATIC_LR_EXT_RIM_0",
+    "GEO_RIM_STATIC_RR_EXT_RIM_0",
+    "GEO_RIM_BLUR_RR_EXT_RIM_BLUR_0",
+    "GEO_RIM_BLUR_RF_EXT_RIM_BLUR_0",
+    "GEO_RIM_STATIC_RF_EXT_RIM_0"
+  ],
+  "kept_mesh_count": 143,
+  "geometry_buffer_sha256": "841d825624d4d137b08c2c64719d87b7036097e402ff12a05a8fad0943883fd3",
+  "source_geometry_unchanged": true
+}
