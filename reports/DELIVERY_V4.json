@@ -1,0 +1,133 @@
+{
+  "active_source": "C:\\Users\\admin\\Documents\\Codex\\2026-09-08\\fable-5-1-vs-fable-at-4\\outputs\\AsterGT",
+  "active_executable": "C:\\Users\\admin\\Documents\\Codex\\2026-09-08\\fable-5-1-vs-fable-at-4\\outputs\\Windows-v4\\AsterGT-v4.exe",
+  "final_qa_performed": false,
+  "original_assets_preserved": {
+    "assets/porsche_992_gt3_r.glb": {
+      "sha256_v3": "dc5434493eb74a94ba62de7343efb64b25ac281ef2712dccdf17c4bf38b5d660",
+      "sha256_v4_original_copy": "dc5434493eb74a94ba62de7343efb64b25ac281ef2712dccdf17c4bf38b5d660",
+      "identical": true
+    },
+    "assets/porsche_rig.json": {
+      "sha256_v3": "585745347841e4dd1cd55008fd776c65f481ca628c9cc379370995c8933c7934",
+      "sha256_v4_original_copy": "585745347841e4dd1cd55008fd776c65f481ca628c9cc379370995c8933c7934",
+      "identical": true
+    },
+    "blender/porsche_992_gt3_r_rigged.blend": {
+      "sha256_v3": "dabc9969ce65f1ab38060e4215b61813fc0b1112b85971c7c2457c1a0fd7e041",
+      "sha256_v4_original_copy": "dabc9969ce65f1ab38060e4215b61813fc0b1112b85971c7c2457c1a0fd7e041",
+      "identical": true
+    }
+  },
+  "new_assets": {
+    "buffet.wav": {
+      "bytes": 192044,
+      "sha256": "9d0eeb247c1ff764ec710b8295a504a59520c8f2f2516569cf044964d6d7beb2"
+    },
+    "collision_proxies.json": {
+      "bytes": 11968,
+      "sha256": "5807e553b591368b5d71c8e5da5f02871139983f717fd18ecb0a1d6ad869d964"
+    },
+    "engine_9250_off.wav": {
+      "bytes": 155718,
+      "sha256": "0128a6bbbb7e477f792433754b4f85bede84c009ac77275eef87c956d1ee20d8"
+    },
+    "engine_9250_on.wav": {
+      "bytes": 155718,
+      "sha256": "2e0af903f6cc47246696a4fc4a1ba6bed0771e904dd5c3eb594c691e9c52955f"
+    },
+    "porsche_lod0.glb": {
+      "bytes": 67852100,
+      "sha256": "3902bcd4e3f0038c30505344a44e9d248ebcfed6a230ec7c4f8c84bde7af6eb0"
+    },
+    "porsche_lod1.glb": {
+      "bytes": 67852492,
+      "sha256": "15d23ccff9c95664f441f28fbebc4ec5242c83c5d3d450d6fd2eed229444c95b"
+    },
+    "porsche_lod2.glb": {
+      "bytes": 67852880,
+      "sha256": "00807651102e430ec728590d1f385f384e64f69494394fc1dde2dfb86046788b"
+    },
+    "porsche_lod3.glb": {
+      "bytes": 67853272,
+      "sha256": "a4bae0d66f8c1504d7c83b57fb2c2c003d1e2e6a47f06f35405f5952f1bd922a"
+    },
+    "porsche_rig.json": {
+      "bytes": 1779,
+      "sha256": "e00f8f04dd6ee2703571bb80c533d5e0417746a0d99e5329503a68852942b9cc"
+    },
+    "traffic_lod0.glb": {
+      "bytes": 14234948,
+      "sha256": "5ed021ce1daef19115665afd9736714b3410d71104e67767b4464dbbd98eaf34"
+    },
+    "traffic_lod1.glb": {
+      "bytes": 17428832,
+      "sha256": "ed209986407a3605cabb3b1f8d26518baa29220c45f80d209e5b096e00bc24ae"
+    },
+    "whine.wav": {
+      "bytes": 96044,
+      "sha256": "7c37ac6408151ddd1d03ed73f05a832e23c8ed3cf6eaa063835d6256fe846401"
+    }
+  },
+  "changed_source_files": [
+    "scripts/camera_rig.gd",
+    "scripts/car.gd",
+    "scripts/car_audio.gd",
+    "scripts/contact_damage.gd",
+    "scripts/controls.gd",
+    "scripts/driving_ui.gd",
+    "scripts/hud.gd",
+    "scripts/main.gd",
+    "scripts/qa_logging.gd",
+    "scripts/safe_store.gd",
+    "scripts/traffic.gd",
+    "scripts/traffic_body.gd",
+    "scripts/vehicle_config.gd",
+    "scripts/world.gd",
+    "config/control_actions.json",
+    "config/experience.json",
+    "config/qa_conditions.json",
+    "config/setting_metadata.json",
+    "config/street.tres",
+    "config/traffic_physics.json"
+  ],
+  "executable_sha256": "70d4081b53e90f3427483bb1d23039e8ed17ddd93083c3a4d9a1dd43457852a8",
+  "smoke_record": {
+    "scope": "syntax/import/export/minimal startup and orderly shutdown ONLY",
+    "final_qa_performed": false,
+    "performance_tests_performed": false,
+    "collision_tests_performed": false,
+    "demo_video_created": false,
+    "steps": [
+      {
+        "step": "import",
+        "return_code": 0,
+        "duration_s": 2.986,
+        "errors": [],
+        "log": "C:\\Users\\admin\\Documents\\Codex\\2026-09-08\\fable-5-1-vs-fable-at-4\\work\\v4\\smoke_import.log",
+        "startup_marker": null
+      },
+      {
+        "step": "export",
+        "return_code": 0,
+        "duration_s": 3.522,
+        "errors": [],
+        "log": "C:\\Users\\admin\\Documents\\Codex\\2026-09-08\\fable-5-1-vs-fable-at-4\\work\\v4\\smoke_export.log",
+        "startup_marker": null
+      },
+      {
+        "step": "executable_startup",
+        "return_code": 0,
+        "duration_s": 1.157,
+        "errors": [],
+        "log": "C:\\Users\\admin\\Documents\\Codex\\2026-09-08\\fable-5-1-vs-fable-at-4\\work\\v4\\smoke_executable_startup.log",
+        "startup_marker": true
+      }
+    ],
+    "executable": {
+      "path": "C:\\Users\\admin\\Documents\\Codex\\2026-09-08\\fable-5-1-vs-fable-at-4\\outputs\\Windows-v4\\AsterGT-v4.exe",
+      "bytes": 198878456,
+      "sha256": "70d4081b53e90f3427483bb1d23039e8ed17ddd93083c3a4d9a1dd43457852a8"
+    }
+  }
+}
