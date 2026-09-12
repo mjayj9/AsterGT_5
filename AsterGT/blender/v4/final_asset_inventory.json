@@ -1,0 +1,2258 @@
+{
+  "blender_version": "5.2.1 LTS",
+  "open_file": "C:\\Users\\admin\\Documents\\Codex\\2026-09-08\\fable-5-1-vs-fable-at-4\\outputs\\AsterGT\\blender\\v4\\porsche_gt3_v4.blend",
+  "units": "METRIC",
+  "scale_length": 1.0,
+  "scenes": [
+    {
+      "scene": "GT3_V4",
+      "collections": [
+        "CompoundCollision"
+      ],
+      "bounds_blender_m": [
+        [
+          -1.0301592350006104,
+          -2.309499502182007,
+          -0.6700000166893005
+        ],
+        [
+          1.018904685974121,
+          2.309500217437744,
+          0.58346027135849
+        ]
+      ],
+      "meshes": [
+        {
+          "name": "porsche_992_gt3_r_exterior_SUB10_EXT_Glass_Emissive_Rear_0",
+          "triangles": 1790,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "porsche_992_gt3_r_exterior_SUB9_EXT_Glass_Emissive_Front_0",
+          "triangles": 2070,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "porsche_992_gt3_r_exterior_SUB8_EXT_Emissive_Light_Rear_0",
+          "triangles": 2494,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "porsche_992_gt3_r_exterior_SUB7_EXT_Emissive_Light_Front_0",
+          "triangles": 7464,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "Exterior_EXT_Windows",
+          "triangles": 1526,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "porsche_992_gt3_r_exterior_SUB5_EXT_Banner_0",
+          "triangles": 2280,
+          "material_slots": 1,
+          "uv_maps": 4,
+          "damage_shapes": []
+        },
+        {
+          "name": "porsche_992_gt3_r_exterior_SUB3_EXT_Grid_2_0",
+          "triangles": 248,
+          "material_slots": 1,
+          "uv_maps": 6,
+          "damage_shapes": []
+        },
+        {
+          "name": "porsche_992_gt3_r_exterior_SUB2_EXT_Details_0",
+          "triangles": 4176,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "porsche_992_gt3_r_exterior_SUB1_EXT_Mechanics_0",
+          "triangles": 15457,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "Exterior_EXT_Carpaint_Inst",
+          "triangles": 84103,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": [
+            "Basis",
+            "DamageFront",
+            "DamageRear",
+            "DamageLeft",
+            "DamageRight"
+          ]
+        },
+        {
+          "name": "RAIN_LIGHTS_EXT_Emissive_Light_Rear_0",
+          "triangles": 528,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "Exterior_AUX_LIGHT_Porsche992",
+          "triangles": 1078,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "ST_REAR_EXT_Emissive_Light_Rear_0",
+          "triangles": 60,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "ST_REAR_LR_EXT_Emissive_Light_Rear_0",
+          "triangles": 48,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "ST_REAR_RR_EXT_Emissive_Light_Rear_0",
+          "triangles": 48,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "GEO_CHASSIS_RADIATOR_EXT_RADIATOR_0",
+          "triangles": 78,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "GEO_CHASSIS_KEVLAR_CHASSIS_KEVLAR_0",
+          "triangles": 1771,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "GEO_EXALST_EXT_EXALTS_0",
+          "triangles": 8618,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "B0_EXT_Emissive_Light_Rear_0",
+          "triangles": 386,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "L0_EXT_Emissive_Light_Front_0",
+          "triangles": 4208,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "L1_EXT_Emissive_Light_Front_0",
+          "triangles": 576,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "EXT_TAMP_FUEL_EXT_TAMP_FUEL_0",
+          "triangles": 1674,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "Cockpit_INT_NET",
+          "triangles": 7102,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "porsche_992_gt3_r_belt_on_BELT_Schroth_2_0",
+          "triangles": 3068,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "Cockpit_INT_Windows",
+          "triangles": 1202,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "Cockpit_INT_ELECTRONICS",
+          "triangles": 56796,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "Cockpit_INT_DECALS",
+          "triangles": 5537,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "Exterior_EXT_Details_1",
+          "triangles": 32,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "Cockpit_INT_Carbon",
+          "triangles": 40717,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "MIRROR_L_MIRROR_0",
+          "triangles": 58,
+          "material_slots": 1,
+          "uv_maps": 4,
+          "damage_shapes": []
+        },
+        {
+          "name": "Cockpit_INT_Occlusion_Inst",
+          "triangles": 76567,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "MIRROR_R_MIRROR_0",
+          "triangles": 58,
+          "material_slots": 1,
+          "uv_maps": 4,
+          "damage_shapes": []
+        },
+        {
+          "name": "INT_METAL_PARTS_INT_METAL_PARTS_0",
+          "triangles": 10508,
+          "material_slots": 1,
+          "uv_maps": 4,
+          "damage_shapes": []
+        },
+        {
+          "name": "lumirank_3_WorldGridMaterial_0",
+          "triangles": 398,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "Cockpit_INT_Racelogic",
+          "triangles": 1108,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "sas_driver_info_INT_SAS_0",
+          "triangles": 660,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "INT_GEO_FOAM_ROLLCAGE_SPARCO_FOAM_ROLLCAGE_0",
+          "triangles": 276,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "Cockpit_INT_LED",
+          "triangles": 672,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "INT_ELECTRONICS_001_INT_ELECTRONICS_2_0",
+          "triangles": 872,
+          "material_slots": 1,
+          "uv_maps": 4,
+          "damage_shapes": []
+        },
+        {
+          "name": "INT_Glass001_INT_Glass_0",
+          "triangles": 2,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "GEO_INT_CARBON_SUB1_INT_CARBON_BAGE_0",
+          "triangles": 1846,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "INT_Windshield_INT_Windshield_0",
+          "triangles": 324,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "INT_WELDING_INT_WELDING_0",
+          "triangles": 4456,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "INT_GEO_BORRACHA_INT_BORRACHAS_0",
+          "triangles": 12195,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "INT_GEO_DASH_PANEL_INT_DASH_PANEL_0",
+          "triangles": 5627,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "INT_GEO_SPARCO_FOAM_SPARCO_FOAM_0",
+          "triangles": 1402,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "Cockpit_SEAT_ALCANTARA",
+          "triangles": 9104,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "INT_BANNER_INT_BANNER_0",
+          "triangles": 210,
+          "material_slots": 1,
+          "uv_maps": 4,
+          "damage_shapes": []
+        },
+        {
+          "name": "DISPLAY_DISPLAY_0",
+          "triangles": 8,
+          "material_slots": 1,
+          "uv_maps": 4,
+          "damage_shapes": []
+        },
+        {
+          "name": "DISPLAY_SASINFO_DISPLAY_SAS_0",
+          "triangles": 10,
+          "material_slots": 1,
+          "uv_maps": 4,
+          "damage_shapes": []
+        },
+        {
+          "name": "INT_CABLES_INT_CABLES_0",
+          "triangles": 5918,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "MANG_AR_INT_MANG_AR_0",
+          "triangles": 912,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "INT_MANGUEIRAS_INT_MANGUEIRAS_0",
+          "triangles": 1002,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "INT_PLASTIC_PARTS_INT_PLASTIC_BLACK_0",
+          "triangles": 6834,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "SPEED_PHISICS_DASH_0",
+          "triangles": 2,
+          "material_slots": 1,
+          "uv_maps": 4,
+          "damage_shapes": []
+        },
+        {
+          "name": "LAPCONT_PHISICS_DASH_0",
+          "triangles": 2,
+          "material_slots": 1,
+          "uv_maps": 4,
+          "damage_shapes": []
+        },
+        {
+          "name": "LAPTIME_PHISICS_DASH_0",
+          "triangles": 2,
+          "material_slots": 1,
+          "uv_maps": 4,
+          "damage_shapes": []
+        },
+        {
+          "name": "DELTA_PHISICS_DASH_0",
+          "triangles": 2,
+          "material_slots": 1,
+          "uv_maps": 4,
+          "damage_shapes": []
+        },
+        {
+          "name": "LASTLAP_PHISICS_DASH_0",
+          "triangles": 2,
+          "material_slots": 1,
+          "uv_maps": 4,
+          "damage_shapes": []
+        },
+        {
+          "name": "BRAKEBIAS_PHISICS_DASH_0",
+          "triangles": 2,
+          "material_slots": 1,
+          "uv_maps": 4,
+          "damage_shapes": []
+        },
+        {
+          "name": "TRF_PHISICS_DASH_0",
+          "triangles": 2,
+          "material_slots": 1,
+          "uv_maps": 4,
+          "damage_shapes": []
+        },
+        {
+          "name": "TLF_PHISICS_DASH_0",
+          "triangles": 2,
+          "material_slots": 1,
+          "uv_maps": 4,
+          "damage_shapes": []
+        },
+        {
+          "name": "TLR_PHISICS_DASH_0",
+          "triangles": 2,
+          "material_slots": 1,
+          "uv_maps": 4,
+          "damage_shapes": []
+        },
+        {
+          "name": "TRR_PHISICS_DASH_0",
+          "triangles": 2,
+          "material_slots": 1,
+          "uv_maps": 4,
+          "damage_shapes": []
+        },
+        {
+          "name": "ABS_PHISICS_DASH_0",
+          "triangles": 2,
+          "material_slots": 1,
+          "uv_maps": 4,
+          "damage_shapes": []
+        },
+        {
+          "name": "FAKE2_PHISICS_DASH_0",
+          "triangles": 2,
+          "material_slots": 1,
+          "uv_maps": 4,
+          "damage_shapes": []
+        },
+        {
+          "name": "FAKE1_PHISICS_DASH_0",
+          "triangles": 2,
+          "material_slots": 1,
+          "uv_maps": 4,
+          "damage_shapes": []
+        },
+        {
+          "name": "FAKE0_PHISICS_DASH_0",
+          "triangles": 2,
+          "material_slots": 1,
+          "uv_maps": 4,
+          "damage_shapes": []
+        },
+        {
+          "name": "WATERTEMP_PHISICS_DASH_0",
+          "triangles": 2,
+          "material_slots": 1,
+          "uv_maps": 4,
+          "damage_shapes": []
+        },
+        {
+          "name": "FUEL_PHISICS_DASH_0",
+          "triangles": 2,
+          "material_slots": 1,
+          "uv_maps": 4,
+          "damage_shapes": []
+        },
+        {
+          "name": "GEAR_PHISICS_DASH_0",
+          "triangles": 2,
+          "material_slots": 1,
+          "uv_maps": 4,
+          "damage_shapes": []
+        },
+        {
+          "name": "LED_RACELOGIC_LED_RACELOGIC_0",
+          "triangles": 36,
+          "material_slots": 1,
+          "uv_maps": 4,
+          "damage_shapes": []
+        },
+        {
+          "name": "MIRROR_C_MIRROR_0",
+          "triangles": 32,
+          "material_slots": 1,
+          "uv_maps": 4,
+          "damage_shapes": []
+        },
+        {
+          "name": "Exterior_EXT_Mechanics_0",
+          "triangles": 1702,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "GEO_RIM_LF_EXT_RIM_0",
+          "triangles": 6402,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "GEO_TIRE_LF_MI_Tyre_Flex_Dry_R_0",
+          "triangles": 2880,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "GEO_DISC_LF_EXT_Disc_0",
+          "triangles": 1824,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "EXT_CALIPER_MARK_LF_EXT_Details_0",
+          "triangles": 16,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "GEO_CALIPER_LF_EXT_CALIPER_0",
+          "triangles": 1252,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "GEO_RIM_RF_EXT_RIM_0",
+          "triangles": 6402,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "GEO_TIRE_RF_MI_Tyre_Flex_Dry_R_0",
+          "triangles": 2880,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "GEO_DISC_RF_EXT_Disc_0",
+          "triangles": 1824,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "GEO_CALIPER_RF_EXT_CALIPER_0",
+          "triangles": 1252,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "EXT_CALIPER_MARK_RF_EXT_Details_0",
+          "triangles": 16,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "GEO_RIM_LR_EXT_RIM_0",
+          "triangles": 6402,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "GEO_TIRE_LR_MI_Tyre_Flex_Dry_R_0",
+          "triangles": 2880,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "GEO_DISC_LR_EXT_Disc_0",
+          "triangles": 1824,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "EXT_CALIPER_MARK_LR_EXT_Details_0",
+          "triangles": 10,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "GEO_CALIPER_LR_EXT_CALIPER_0",
+          "triangles": 1365,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "GEO_RIM_RR_EXT_RIM_0",
+          "triangles": 6402,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "GEO_TIRE_RR_MI_Tyre_Flex_Dry_R_0",
+          "triangles": 2880,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "GEO_DISC_RR_EXT_Disc_0",
+          "triangles": 1824,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "GEO_CALIPER_RR_EXT_CALIPER_0",
+          "triangles": 1365,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "EXT_CALIPER_MARK_RR_EXT_Details_0",
+          "triangles": 10,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "porsche_992_gt3_r_steer_hr_SUB2_INT_DECALS_0",
+          "triangles": 932,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "porsche_992_gt3_r_steer_hr_SUB1_INT_Steer_Carbon_0",
+          "triangles": 7032,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "porsche_992_gt3_r_steer_hr_SUB0_SUB1_STEER_PLASTIC_0",
+          "triangles": 5388,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "porsche_992_gt3_r_steer_hr_SUB0_SUB0_INT_Steer_0",
+          "triangles": 14354,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        }
+      ],
+      "triangle_total": 475382,
+      "material_slot_total": 98
+    },
+    {
+      "scene": "GT3_LOD1",
+      "collections": [],
+      "bounds_blender_m": [
+        [
+          -1.0301536321640015,
+          -2.30979323387146,
+          -0.6701146364212036
+        ],
+        [
+          1.018898606300354,
+          2.309500217437744,
+          0.5834601521492004
+        ]
+      ],
+      "meshes": [
+        {
+          "name": "porsche_992_gt3_r_exterior_SUB10_EXT_Glass_Emissive_Rear_0.001",
+          "triangles": 750,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "porsche_992_gt3_r_exterior_SUB9_EXT_Glass_Emissive_Front_0.001",
+          "triangles": 869,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "porsche_992_gt3_r_exterior_SUB8_EXT_Emissive_Light_Rear_0.001",
+          "triangles": 1047,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "porsche_992_gt3_r_exterior_SUB7_EXT_Emissive_Light_Front_0.001",
+          "triangles": 3134,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "Exterior_EXT_Windows.001",
+          "triangles": 640,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "porsche_992_gt3_r_exterior_SUB5_EXT_Banner_0.001",
+          "triangles": 957,
+          "material_slots": 1,
+          "uv_maps": 4,
+          "damage_shapes": []
+        },
+        {
+          "name": "porsche_992_gt3_r_exterior_SUB3_EXT_Grid_2_0.001",
+          "triangles": 104,
+          "material_slots": 1,
+          "uv_maps": 6,
+          "damage_shapes": []
+        },
+        {
+          "name": "porsche_992_gt3_r_exterior_SUB2_EXT_Details_0.001",
+          "triangles": 1753,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "porsche_992_gt3_r_exterior_SUB1_EXT_Mechanics_0.001",
+          "triangles": 6491,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "Exterior_EXT_Carpaint_Inst.001",
+          "triangles": 35323,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": [
+            "Basis",
+            "DamageFront",
+            "DamageRear",
+            "DamageLeft",
+            "DamageRight"
+          ]
+        },
+        {
+          "name": "RAIN_LIGHTS_EXT_Emissive_Light_Rear_0.001",
+          "triangles": 220,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "Exterior_AUX_LIGHT_Porsche992.001",
+          "triangles": 452,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "ST_REAR_EXT_Emissive_Light_Rear_0.001",
+          "triangles": 25,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "ST_REAR_LR_EXT_Emissive_Light_Rear_0.001",
+          "triangles": 48,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "ST_REAR_RR_EXT_Emissive_Light_Rear_0.001",
+          "triangles": 48,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "GEO_CHASSIS_RADIATOR_EXT_RADIATOR_0.001",
+          "triangles": 32,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "GEO_CHASSIS_KEVLAR_CHASSIS_KEVLAR_0.001",
+          "triangles": 743,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "GEO_EXALST_EXT_EXALTS_0.001",
+          "triangles": 3619,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "B0_EXT_Emissive_Light_Rear_0.001",
+          "triangles": 162,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "L0_EXT_Emissive_Light_Front_0.001",
+          "triangles": 1766,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "L1_EXT_Emissive_Light_Front_0.001",
+          "triangles": 241,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "EXT_TAMP_FUEL_EXT_TAMP_FUEL_0.001",
+          "triangles": 703,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "porsche_992_gt3_r_belt_on_BELT_Schroth_2_0.001",
+          "triangles": 1288,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "Exterior_EXT_Details_1.001",
+          "triangles": 32,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "MIRROR_L_MIRROR_0.001",
+          "triangles": 24,
+          "material_slots": 1,
+          "uv_maps": 4,
+          "damage_shapes": []
+        },
+        {
+          "name": "MIRROR_R_MIRROR_0.001",
+          "triangles": 24,
+          "material_slots": 1,
+          "uv_maps": 4,
+          "damage_shapes": []
+        },
+        {
+          "name": "lumirank_3_WorldGridMaterial_0.001",
+          "triangles": 167,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "Exterior_EXT_Mechanics_0.001",
+          "triangles": 714,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "GEO_RIM_LF_EXT_RIM_0.001",
+          "triangles": 2687,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "GEO_TIRE_LF_MI_Tyre_Flex_Dry_R_0.001",
+          "triangles": 1209,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "GEO_DISC_LF_EXT_Disc_0.001",
+          "triangles": 766,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "EXT_CALIPER_MARK_LF_EXT_Details_0.001",
+          "triangles": 16,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "GEO_CALIPER_LF_EXT_CALIPER_0.001",
+          "triangles": 525,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "GEO_RIM_RF_EXT_RIM_0.001",
+          "triangles": 2688,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "GEO_TIRE_RF_MI_Tyre_Flex_Dry_R_0.001",
+          "triangles": 1208,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "GEO_DISC_RF_EXT_Disc_0.001",
+          "triangles": 766,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "GEO_CALIPER_RF_EXT_CALIPER_0.001",
+          "triangles": 525,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "EXT_CALIPER_MARK_RF_EXT_Details_0.001",
+          "triangles": 16,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "GEO_RIM_LR_EXT_RIM_0.001",
+          "triangles": 2688,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "GEO_TIRE_LR_MI_Tyre_Flex_Dry_R_0.001",
+          "triangles": 1209,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "GEO_DISC_LR_EXT_Disc_0.001",
+          "triangles": 765,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "EXT_CALIPER_MARK_LR_EXT_Details_0.001",
+          "triangles": 10,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "GEO_CALIPER_LR_EXT_CALIPER_0.001",
+          "triangles": 572,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "GEO_RIM_RR_EXT_RIM_0.001",
+          "triangles": 2687,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "GEO_TIRE_RR_MI_Tyre_Flex_Dry_R_0.001",
+          "triangles": 1208,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "GEO_DISC_RR_EXT_Disc_0.001",
+          "triangles": 765,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "GEO_CALIPER_RR_EXT_CALIPER_0.001",
+          "triangles": 573,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "EXT_CALIPER_MARK_RR_EXT_Details_0.001",
+          "triangles": 10,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "porsche_992_gt3_r_steer_hr_SUB2_INT_DECALS_0.001",
+          "triangles": 391,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "porsche_992_gt3_r_steer_hr_SUB1_INT_Steer_Carbon_0.001",
+          "triangles": 2953,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "porsche_992_gt3_r_steer_hr_SUB0_SUB1_STEER_PLASTIC_0.001",
+          "triangles": 2262,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "porsche_992_gt3_r_steer_hr_SUB0_SUB0_INT_Steer_0.001",
+          "triangles": 6028,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        }
+      ],
+      "triangle_total": 93903,
+      "material_slot_total": 52
+    },
+    {
+      "scene": "GT3_LOD2",
+      "collections": [],
+      "bounds_blender_m": [
+        [
+          -1.0430735349655151,
+          -2.3102407455444336,
+          -0.6679353713989258
+        ],
+        [
+          1.0318198204040527,
+          2.309500217437744,
+          0.583221435546875
+        ]
+      ],
+      "meshes": [
+        {
+          "name": "porsche_992_gt3_r_exterior_SUB10_EXT_Glass_Emissive_Rear_0.002",
+          "triangles": 232,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "porsche_992_gt3_r_exterior_SUB9_EXT_Glass_Emissive_Front_0.002",
+          "triangles": 268,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "porsche_992_gt3_r_exterior_SUB8_EXT_Emissive_Light_Rear_0.002",
+          "triangles": 324,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "porsche_992_gt3_r_exterior_SUB7_EXT_Emissive_Light_Front_0.002",
+          "triangles": 970,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "Exterior_EXT_Windows.002",
+          "triangles": 198,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "porsche_992_gt3_r_exterior_SUB5_EXT_Banner_0.002",
+          "triangles": 296,
+          "material_slots": 1,
+          "uv_maps": 4,
+          "damage_shapes": []
+        },
+        {
+          "name": "porsche_992_gt3_r_exterior_SUB3_EXT_Grid_2_0.002",
+          "triangles": 32,
+          "material_slots": 1,
+          "uv_maps": 6,
+          "damage_shapes": []
+        },
+        {
+          "name": "porsche_992_gt3_r_exterior_SUB2_EXT_Details_0.002",
+          "triangles": 542,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "porsche_992_gt3_r_exterior_SUB1_EXT_Mechanics_0.002",
+          "triangles": 2009,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "Exterior_EXT_Carpaint_Inst.002",
+          "triangles": 10933,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": [
+            "Basis",
+            "DamageFront",
+            "DamageRear",
+            "DamageLeft",
+            "DamageRight"
+          ]
+        },
+        {
+          "name": "RAIN_LIGHTS_EXT_Emissive_Light_Rear_0.002",
+          "triangles": 68,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "Exterior_AUX_LIGHT_Porsche992.002",
+          "triangles": 139,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "ST_REAR_EXT_Emissive_Light_Rear_0.002",
+          "triangles": 7,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "ST_REAR_LR_EXT_Emissive_Light_Rear_0.002",
+          "triangles": 48,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "ST_REAR_RR_EXT_Emissive_Light_Rear_0.002",
+          "triangles": 48,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "GEO_CHASSIS_RADIATOR_EXT_RADIATOR_0.002",
+          "triangles": 10,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "GEO_CHASSIS_KEVLAR_CHASSIS_KEVLAR_0.002",
+          "triangles": 229,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "GEO_EXALST_EXT_EXALTS_0.002",
+          "triangles": 1119,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "B0_EXT_Emissive_Light_Rear_0.002",
+          "triangles": 50,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "L0_EXT_Emissive_Light_Front_0.002",
+          "triangles": 547,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "L1_EXT_Emissive_Light_Front_0.002",
+          "triangles": 74,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "EXT_TAMP_FUEL_EXT_TAMP_FUEL_0.002",
+          "triangles": 217,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "porsche_992_gt3_r_belt_on_BELT_Schroth_2_0.002",
+          "triangles": 398,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "Exterior_EXT_Details_1.002",
+          "triangles": 32,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "MIRROR_L_MIRROR_0.002",
+          "triangles": 7,
+          "material_slots": 1,
+          "uv_maps": 4,
+          "damage_shapes": []
+        },
+        {
+          "name": "MIRROR_R_MIRROR_0.002",
+          "triangles": 7,
+          "material_slots": 1,
+          "uv_maps": 4,
+          "damage_shapes": []
+        },
+        {
+          "name": "lumirank_3_WorldGridMaterial_0.002",
+          "triangles": 51,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "Exterior_EXT_Mechanics_0.002",
+          "triangles": 220,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "GEO_RIM_LF_EXT_RIM_0.002",
+          "triangles": 832,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "GEO_TIRE_LF_MI_Tyre_Flex_Dry_R_0.002",
+          "triangles": 373,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "GEO_DISC_LF_EXT_Disc_0.002",
+          "triangles": 237,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "EXT_CALIPER_MARK_LF_EXT_Details_0.002",
+          "triangles": 16,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "GEO_CALIPER_LF_EXT_CALIPER_0.002",
+          "triangles": 162,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "GEO_RIM_RF_EXT_RIM_0.002",
+          "triangles": 832,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "GEO_TIRE_RF_MI_Tyre_Flex_Dry_R_0.002",
+          "triangles": 374,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "GEO_DISC_RF_EXT_Disc_0.002",
+          "triangles": 237,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "GEO_CALIPER_RF_EXT_CALIPER_0.002",
+          "triangles": 162,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "EXT_CALIPER_MARK_RF_EXT_Details_0.002",
+          "triangles": 16,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "GEO_RIM_LR_EXT_RIM_0.002",
+          "triangles": 832,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "GEO_TIRE_LR_MI_Tyre_Flex_Dry_R_0.002",
+          "triangles": 374,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "GEO_DISC_LR_EXT_Disc_0.002",
+          "triangles": 237,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "EXT_CALIPER_MARK_LR_EXT_Details_0.002",
+          "triangles": 10,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "GEO_CALIPER_LR_EXT_CALIPER_0.002",
+          "triangles": 177,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "GEO_RIM_RR_EXT_RIM_0.002",
+          "triangles": 832,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "GEO_TIRE_RR_MI_Tyre_Flex_Dry_R_0.002",
+          "triangles": 374,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "GEO_DISC_RR_EXT_Disc_0.002",
+          "triangles": 237,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "GEO_CALIPER_RR_EXT_CALIPER_0.002",
+          "triangles": 177,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "EXT_CALIPER_MARK_RR_EXT_Details_0.002",
+          "triangles": 10,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "porsche_992_gt3_r_steer_hr_SUB2_INT_DECALS_0.002",
+          "triangles": 121,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "porsche_992_gt3_r_steer_hr_SUB1_INT_Steer_Carbon_0.002",
+          "triangles": 914,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "porsche_992_gt3_r_steer_hr_SUB0_SUB1_STEER_PLASTIC_0.002",
+          "triangles": 700,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "porsche_992_gt3_r_steer_hr_SUB0_SUB0_INT_Steer_0.002",
+          "triangles": 1865,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        }
+      ],
+      "triangle_total": 29176,
+      "material_slot_total": 52
+    },
+    {
+      "scene": "GT3_LOD3",
+      "collections": [],
+      "bounds_blender_m": [
+        [
+          -1.0337305068969727,
+          -2.31023907661438,
+          -0.6772243976593018
+        ],
+        [
+          1.022473692893982,
+          2.3188467025756836,
+          0.5820966958999634
+        ]
+      ],
+      "meshes": [
+        {
+          "name": "porsche_992_gt3_r_exterior_SUB10_EXT_Glass_Emissive_Rear_0.003",
+          "triangles": 62,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "porsche_992_gt3_r_exterior_SUB9_EXT_Glass_Emissive_Front_0.003",
+          "triangles": 72,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "porsche_992_gt3_r_exterior_SUB8_EXT_Emissive_Light_Rear_0.003",
+          "triangles": 87,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "porsche_992_gt3_r_exterior_SUB7_EXT_Emissive_Light_Front_0.003",
+          "triangles": 261,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "Exterior_EXT_Windows.003",
+          "triangles": 53,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "porsche_992_gt3_r_exterior_SUB5_EXT_Banner_0.003",
+          "triangles": 79,
+          "material_slots": 1,
+          "uv_maps": 4,
+          "damage_shapes": []
+        },
+        {
+          "name": "porsche_992_gt3_r_exterior_SUB3_EXT_Grid_2_0.003",
+          "triangles": 8,
+          "material_slots": 1,
+          "uv_maps": 6,
+          "damage_shapes": []
+        },
+        {
+          "name": "porsche_992_gt3_r_exterior_SUB2_EXT_Details_0.003",
+          "triangles": 145,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "porsche_992_gt3_r_exterior_SUB1_EXT_Mechanics_0.003",
+          "triangles": 540,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "Exterior_EXT_Carpaint_Inst.003",
+          "triangles": 2943,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": [
+            "Basis",
+            "DamageFront",
+            "DamageRear",
+            "DamageLeft",
+            "DamageRight"
+          ]
+        },
+        {
+          "name": "RAIN_LIGHTS_EXT_Emissive_Light_Rear_0.003",
+          "triangles": 18,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "Exterior_AUX_LIGHT_Porsche992.003",
+          "triangles": 37,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "ST_REAR_EXT_Emissive_Light_Rear_0.003",
+          "triangles": 2,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "ST_REAR_LR_EXT_Emissive_Light_Rear_0.003",
+          "triangles": 48,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "ST_REAR_RR_EXT_Emissive_Light_Rear_0.003",
+          "triangles": 48,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "GEO_CHASSIS_RADIATOR_EXT_RADIATOR_0.003",
+          "triangles": 2,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "GEO_CHASSIS_KEVLAR_CHASSIS_KEVLAR_0.003",
+          "triangles": 61,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "GEO_EXALST_EXT_EXALTS_0.003",
+          "triangles": 300,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "B0_EXT_Emissive_Light_Rear_0.003",
+          "triangles": 13,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "L0_EXT_Emissive_Light_Front_0.003",
+          "triangles": 147,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "L1_EXT_Emissive_Light_Front_0.003",
+          "triangles": 20,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "EXT_TAMP_FUEL_EXT_TAMP_FUEL_0.003",
+          "triangles": 58,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "porsche_992_gt3_r_belt_on_BELT_Schroth_2_0.003",
+          "triangles": 107,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "Exterior_EXT_Details_1.003",
+          "triangles": 32,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "MIRROR_L_MIRROR_0.003",
+          "triangles": 2,
+          "material_slots": 1,
+          "uv_maps": 4,
+          "damage_shapes": []
+        },
+        {
+          "name": "MIRROR_R_MIRROR_0.003",
+          "triangles": 2,
+          "material_slots": 1,
+          "uv_maps": 4,
+          "damage_shapes": []
+        },
+        {
+          "name": "lumirank_3_WorldGridMaterial_0.003",
+          "triangles": 13,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "Exterior_EXT_Mechanics_0.003",
+          "triangles": 58,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "GEO_RIM_LF_EXT_RIM_0.003",
+          "triangles": 224,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "GEO_TIRE_LF_MI_Tyre_Flex_Dry_R_0.003",
+          "triangles": 99,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "GEO_DISC_LF_EXT_Disc_0.003",
+          "triangles": 63,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "EXT_CALIPER_MARK_LF_EXT_Details_0.003",
+          "triangles": 16,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "GEO_CALIPER_LF_EXT_CALIPER_0.003",
+          "triangles": 43,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "GEO_RIM_RF_EXT_RIM_0.003",
+          "triangles": 224,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "GEO_TIRE_RF_MI_Tyre_Flex_Dry_R_0.003",
+          "triangles": 100,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "GEO_DISC_RF_EXT_Disc_0.003",
+          "triangles": 63,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "GEO_CALIPER_RF_EXT_CALIPER_0.003",
+          "triangles": 43,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "EXT_CALIPER_MARK_RF_EXT_Details_0.003",
+          "triangles": 16,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "GEO_RIM_LR_EXT_RIM_0.003",
+          "triangles": 224,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "GEO_TIRE_LR_MI_Tyre_Flex_Dry_R_0.003",
+          "triangles": 100,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "GEO_DISC_LR_EXT_Disc_0.003",
+          "triangles": 63,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "EXT_CALIPER_MARK_LR_EXT_Details_0.003",
+          "triangles": 10,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "GEO_CALIPER_LR_EXT_CALIPER_0.003",
+          "triangles": 47,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "GEO_RIM_RR_EXT_RIM_0.003",
+          "triangles": 223,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "GEO_TIRE_RR_MI_Tyre_Flex_Dry_R_0.003",
+          "triangles": 99,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "GEO_DISC_RR_EXT_Disc_0.003",
+          "triangles": 63,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "GEO_CALIPER_RR_EXT_CALIPER_0.003",
+          "triangles": 47,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "EXT_CALIPER_MARK_RR_EXT_Details_0.003",
+          "triangles": 10,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "porsche_992_gt3_r_steer_hr_SUB2_INT_DECALS_0.003",
+          "triangles": 32,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "porsche_992_gt3_r_steer_hr_SUB1_INT_Steer_Carbon_0.003",
+          "triangles": 246,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "porsche_992_gt3_r_steer_hr_SUB0_SUB1_STEER_PLASTIC_0.003",
+          "triangles": 188,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        },
+        {
+          "name": "porsche_992_gt3_r_steer_hr_SUB0_SUB0_INT_Steer_0.003",
+          "triangles": 502,
+          "material_slots": 1,
+          "uv_maps": 5,
+          "damage_shapes": []
+        }
+      ],
+      "triangle_total": 7963,
+      "material_slot_total": 52
+    },
+    {
+      "scene": "Traffic_V4",
+      "collections": [],
+      "bounds_blender_m": [
+        [
+          -1.0,
+          -2.2274999618530273,
+          -0.6700000166893005
+        ],
+        [
+          1.0,
+          2.2100000381469727,
+          0.7450000047683716
+        ]
+      ],
+      "meshes": [
+        {
+          "name": "TrafficBody",
+          "triangles": 12,
+          "material_slots": 1,
+          "uv_maps": 1,
+          "damage_shapes": [
+            "Basis",
+            "DamageFront",
+            "DamageRear",
+            "DamageLeft",
+            "DamageRight"
+          ]
+        },
+        {
+          "name": "TrafficCabin",
+          "triangles": 12,
+          "material_slots": 1,
+          "uv_maps": 1,
+          "damage_shapes": []
+        },
+        {
+          "name": "TrafficRoof",
+          "triangles": 12,
+          "material_slots": 1,
+          "uv_maps": 1,
+          "damage_shapes": []
+        },
+        {
+          "name": "Tire_LF",
+          "triangles": 60,
+          "material_slots": 1,
+          "uv_maps": 1,
+          "damage_shapes": []
+        },
+        {
+          "name": "Tire_RF",
+          "triangles": 60,
+          "material_slots": 1,
+          "uv_maps": 1,
+          "damage_shapes": []
+        },
+        {
+          "name": "Tire_LR",
+          "triangles": 60,
+          "material_slots": 1,
+          "uv_maps": 1,
+          "damage_shapes": []
+        },
+        {
+          "name": "Tire_RR",
+          "triangles": 60,
+          "material_slots": 1,
+          "uv_maps": 1,
+          "damage_shapes": []
+        },
+        {
+          "name": "TailLamp_-0.65",
+          "triangles": 12,
+          "material_slots": 1,
+          "uv_maps": 1,
+          "damage_shapes": []
+        },
+        {
+          "name": "TailLamp_0.65",
+          "triangles": 12,
+          "material_slots": 1,
+          "uv_maps": 1,
+          "damage_shapes": []
+        }
+      ],
+      "triangle_total": 300,
+      "material_slot_total": 9
+    },
+    {
+      "scene": "Traffic_LOD1",
+      "collections": [],
+      "bounds_blender_m": [
+        [
+          -1.0,
+          -2.2274999618530273,
+          -0.6956470608711243
+        ],
+        [
+          1.0,
+          2.2100000381469727,
+          0.7450000047683716
+        ]
+      ],
+      "meshes": [
+        {
+          "name": "TrafficBody.001",
+          "triangles": 12,
+          "material_slots": 1,
+          "uv_maps": 1,
+          "damage_shapes": [
+            "Basis",
+            "DamageFront",
+            "DamageRear",
+            "DamageLeft",
+            "DamageRight"
+          ]
+        },
+        {
+          "name": "TrafficCabin.001",
+          "triangles": 12,
+          "material_slots": 1,
+          "uv_maps": 1,
+          "damage_shapes": []
+        },
+        {
+          "name": "TrafficRoof.001",
+          "triangles": 12,
+          "material_slots": 1,
+          "uv_maps": 1,
+          "damage_shapes": []
+        },
+        {
+          "name": "Tire_LF.001",
+          "triangles": 24,
+          "material_slots": 1,
+          "uv_maps": 1,
+          "damage_shapes": []
+        },
+        {
+          "name": "Tire_RF.001",
+          "triangles": 24,
+          "material_slots": 1,
+          "uv_maps": 1,
+          "damage_shapes": []
+        },
+        {
+          "name": "Tire_LR.001",
+          "triangles": 24,
+          "material_slots": 1,
+          "uv_maps": 1,
+          "damage_shapes": []
+        },
+        {
+          "name": "Tire_RR.001",
+          "triangles": 24,
+          "material_slots": 1,
+          "uv_maps": 1,
+          "damage_shapes": []
+        },
+        {
+          "name": "TailLamp_-0.001",
+          "triangles": 12,
+          "material_slots": 1,
+          "uv_maps": 1,
+          "damage_shapes": []
+        },
+        {
+          "name": "TailLamp_0.001",
+          "triangles": 12,
+          "material_slots": 1,
+          "uv_maps": 1,
+          "damage_shapes": []
+        }
+      ],
+      "triangle_total": 156,
+      "material_slot_total": 9
+    }
+  ],
+  "reference_nodes": [
+    {
+      "name": "Porsche992GT3R",
+      "position_blender_m": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "Body",
+      "position_blender_m": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "Wheel_LF",
+      "position_blender_m": [
+        -0.8410000205039978,
+        1.253499984741211,
+        -0.33000001311302185
+      ]
+    },
+    {
+      "name": "Caliper_LF",
+      "position_blender_m": [
+        -0.8410000205039978,
+        1.253499984741211,
+        -0.33000001311302185
+      ]
+    },
+    {
+      "name": "Wheel_RF",
+      "position_blender_m": [
+        0.8410000205039978,
+        1.253499984741211,
+        -0.33000001311302185
+      ]
+    },
+    {
+      "name": "Caliper_RF",
+      "position_blender_m": [
+        0.8410000205039978,
+        1.253499984741211,
+        -0.33000001311302185
+      ]
+    },
+    {
+      "name": "Wheel_LR",
+      "position_blender_m": [
+        -0.8339999914169312,
+        -1.253499984741211,
+        -0.3149999976158142
+      ]
+    },
+    {
+      "name": "Caliper_LR",
+      "position_blender_m": [
+        -0.8339999914169312,
+        -1.253499984741211,
+        -0.3149999976158142
+      ]
+    },
+    {
+      "name": "Wheel_RR",
+      "position_blender_m": [
+        0.8339999914169312,
+        -1.253499984741211,
+        -0.3149999976158142
+      ]
+    },
+    {
+      "name": "Caliper_RR",
+      "position_blender_m": [
+        0.8339999914169312,
+        -1.253499984741211,
+        -0.3149999976158142
+      ]
+    },
+    {
+      "name": "Steering",
+      "position_blender_m": [
+        -0.30595719814300537,
+        0.1523844301700592,
+        0.033416371792554855
+      ]
+    },
+    {
+      "name": "Suspension_LF",
+      "position_blender_m": [
+        -0.8410000205039978,
+        1.253499984741211,
+        0.06557169556617737
+      ]
+    },
+    {
+      "name": "SteerAxis_LF",
+      "position_blender_m": [
+        -0.8410000205039978,
+        1.253499984741211,
+        -0.33000001311302185
+      ]
+    },
+    {
+      "name": "Suspension_RF",
+      "position_blender_m": [
+        0.8410000205039978,
+        1.253499984741211,
+        0.06557169556617737
+      ]
+    },
+    {
+      "name": "SteerAxis_RF",
+      "position_blender_m": [
+        0.8410000205039978,
+        1.253499984741211,
+        -0.33000001311302185
+      ]
+    },
+    {
+      "name": "Suspension_LR",
+      "position_blender_m": [
+        -0.8339999914169312,
+        -1.253499984741211,
+        0.08057171106338501
+      ]
+    },
+    {
+      "name": "SteerAxis_LR",
+      "position_blender_m": [
+        -0.8339999914169312,
+        -1.253499984741211,
+        -0.3149999976158142
+      ]
+    },
+    {
+      "name": "Suspension_RR",
+      "position_blender_m": [
+        0.8339999914169312,
+        -1.253499984741211,
+        0.08057171106338501
+      ]
+    },
+    {
+      "name": "SteerAxis_RR",
+      "position_blender_m": [
+        0.8339999914169312,
+        -1.253499984741211,
+        -0.3149999976158142
+      ]
+    }
+  ],
+  "axis": {
+    "blender_forward": "+Y",
+    "blender_up": "+Z",
+    "godot_forward": "-Z",
+    "godot_up": "+Y"
+  },
+  "wheelbase_m": 2.506999969482422,
+  "body_origin_blender_m": [
+    0,
+    0,
+    0
+  ],
+  "fixed_mounts": {
+    "LF": [
+      -0.8410000205039978,
+      0.06557169741329394,
+      -1.253499984741211
+    ],
+    "RF": [
+      0.8410000205039978,
+      0.06557169741329394,
+      -1.253499984741211
+    ],
+    "LR": [
+      -0.8339999914169312,
+      0.08057171291050158,
+      1.253499984741211
+    ],
+    "RR": [
+      0.8339999914169312,
+      0.08057171291050158,
+      1.253499984741211
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "version": "5.2.1 LTS",
+  "source_blend": "C:/Users/admin/Documents/Codex/2026-09-08/fable-5-1-vs-fable-at-4/outputs/AsterGT/blender/v4/porsche_gt3_v4.blend",
+  "LODs": [
+    {
+      "lod": 0,
+      "triangles": 475382,
+      "meshes": 98
+    },
+    {
+      "lod": 1,
+      "triangles": 93903,
+      "meshes": 52
+    },
+    {
+      "lod": 2,
+      "triangles": 29176,
+      "meshes": 52
+    },
+    {
+      "lod": 3,
+      "triangles": 7963,
+      "meshes": 52
+    }
+  ]
+}
