@@ -1,0 +1,19 @@
+# Godot 4 import cache — regenerated on first import
+.godot/
+*.import.bak
+
+# Godot export output
+build/
+export/
+*.exe
+*.pck
+*.zip
+
+# Blender auto-backups
+*.blend1
+*.blend2
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+*.swp
