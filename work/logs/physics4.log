@@ -1,0 +1,8 @@
+Godot Engine v4.6.3.stable.mono.official.7d41c59c4 - https://godotengine.org
+
+SCRIPT ERROR: Parse Error: Could not parse global class "GTCar" from "res://scripts/car.gd".
+   at: GDScript::reload (res://tests/physics_test.gd:2)
+SCRIPT ERROR: Parse Error: Could not resolve class "GTCar", because of a parser error.
+   at: GDScript::reload (res://tests/physics_test.gd:16)
+ERROR: Failed to load script "res://tests/physics_test.gd" with error "Parse error".
+   at: load (modules/gdscript/gdscript.cpp:2907)

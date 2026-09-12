@@ -1,0 +1,13 @@
+Godot Engine v4.6.3.stable.mono.official.7d41c59c4 - https://godotengine.org
+
+CHECK TCS_reduces_launch_slip true
+CHECK ABS_reduces_wheel_lock true
+CHECK ESC_reduces_yaw_disturbance true
+CHECK handbrake_locks_rear true
+CHECK high_speed_steering_reduced true
+CHECK rpm_matches_driven_wheels true
+CHECK all_six_gears_used true
+CHECK GT_reaches_250kph true
+CHECK neutral_disconnects_drive true
+CHECK full_manual_low_rpm_lug true
+{"checks":{"ABS_reduces_wheel_lock":true,"ESC_reduces_yaw_disturbance":true,"GT_reaches_250kph":true,"TCS_reduces_launch_slip":true,"all_six_gears_used":true,"full_manual_low_rpm_lug":true,"handbrake_locks_rear":true,"high_speed_steering_reduced":true,"neutral_disconnects_drive":true,"rpm_matches_driven_wheels":true},"measurements":{"abs":[{"active_ticks":0,"distance_m":46.7271499633789,"enabled":false,"mean_front_slip":0.929261412083463},{"active_ticks":432,"distance_m":55.6958351135254,"enabled":true,"mean_front_slip":0.168179103646559}],"esc":[{"active_ticks":0,"enabled":false,"integrated_yaw_rad":2.62818151315053},{"active_ticks":151,"enabled":true,"integrated_yaw_rad":2.06924295326074}],"max_coupled_rpm_relative_error":0.0450577031845491,"maximum_speed_after_95s_kph":320.534335327148,"shift_events":[{"from":1,"rpm":6910.7126517453,"speed_kph":63.4840576171875,"to":2},{"from":2,"rpm":6903.03047153077,"speed_kph":104.297579956055,"to":3},{"from":3,"rpm":6900.57867954938,"speed_kph":151.149174499512,"to":4},{"from":4,"rpm":6901.3033761851,"speed_kph":202.775344848633,"to":5},{"from":5,"rpm":6900.77137436879,"speed_kph":253.569039916992,"to":6}],"tcs":[{"active_ticks":0,"enabled":false,"mean_rear_slip":1.56193917244439,"speed_kph":61.0419479370117},{"active_ticks":308,"enabled":true,"mean_rear_slip":0.330634408152869,"speed_kph":73.2586280822754}]}}

@@ -1,0 +1,140 @@
+Godot Engine v4.6.3.stable.mono.official.7d41c59c4 - https://godotengine.org
+
+[   0% ] [90m[1mfirst_scan_filesystem[22m | Started 프로젝트 초기화 (5 steps)[39m[0m
+[   0% ] [90m[1mfirst_scan_filesystem[22m | 파일 구조 스캔 중...[39m[0m
+[  16% ] [90m[1mfirst_scan_filesystem[22m | 전역 클래스 이름을 불러오는 중...[39m[0m
+[  33% ] [90m[1mfirst_scan_filesystem[22m | GDExtensions 검증 중...[39m[0m
+[  50% ] [90m[1mfirst_scan_filesystem[22m | 오토로드 스크립트를 만드는 중...[39m[0m
+[  66% ] [90m[1mfirst_scan_filesystem[22m | 플러그인을 초기화 중...[39m[0m
+[  83% ] [90m[1mfirst_scan_filesystem[22m | 파일 스캔 시작 중...[39m[0m
+[92m[ DONE ][39m [1mfirst_scan_filesystem[22m
+[0m
+[   0% ] [90m[1mupdate_scripts_classes[22m | Started 전역 클래스를 등록하는 중... (8 steps)[39m[0m
+[   0% ] [90m[1mupdate_scripts_classes[22m | GTCameraRig[39m[0m
+[  11% ] [90m[1mupdate_scripts_classes[22m | GTCar[39m[0m
+[  22% ] [90m[1mupdate_scripts_classes[22m | GTAudio[39m[0m
+[  33% ] [90m[1mupdate_scripts_classes[22m | GTControls[39m[0m
+[  44% ] [90m[1mupdate_scripts_classes[22m | GTHud[39m[0m
+[  55% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  66% ] [90m[1mupdate_scripts_classes[22m | GTTraffic[39m[0m
+[  77% ] [90m[1mupdate_scripts_classes[22m | GTWorld[39m[0m
+[92m[ DONE ][39m [1mupdate_scripts_classes[22m
+[0m
+[   0% ] [90m[1m_update_scan_actions[22m | Started 액션 스캔 중... (19 steps)[39m[0m
+[   0% ] [90m[1m_update_scan_actions[22m | asphalt.png[39m[0m
+[   5% ] [90m[1m_update_scan_actions[22m | aster_gt.glb[39m[0m
+[  10% ] [90m[1m_update_scan_actions[22m | ground.png[39m[0m
+[  15% ] [90m[1m_update_scan_actions[22m | high.wav[39m[0m
+[  20% ] [90m[1m_update_scan_actions[22m | horn.wav[39m[0m
+[  25% ] [90m[1m_update_scan_actions[22m | idle.wav[39m[0m
+[  30% ] [90m[1m_update_scan_actions[22m | impact.wav[39m[0m
+[  35% ] [90m[1m_update_scan_actions[22m | low.wav[39m[0m
+[  40% ] [90m[1m_update_scan_actions[22m | mid.wav[39m[0m
+[  45% ] [90m[1m_update_scan_actions[22m | paint_normal.png[39m[0m
+[  50% ] [90m[1m_update_scan_actions[22m | rain.wav[39m[0m
+[  55% ] [90m[1m_update_scan_actions[22m | rocks.glb[39m[0m
+[  60% ] [90m[1m_update_scan_actions[22m | shift.wav[39m[0m
+[  65% ] [90m[1m_update_scan_actions[22m | tire.wav[39m[0m
+[  70% ] [90m[1m_update_scan_actions[22m | tree_0.glb[39m[0m
+[  75% ] [90m[1m_update_scan_actions[22m | tree_1.glb[39m[0m
+[  80% ] [90m[1m_update_scan_actions[22m | tree_2.glb[39m[0m
+[  85% ] [90m[1m_update_scan_actions[22m | wheel.glb[39m[0m
+[  90% ] [90m[1m_update_scan_actions[22m | wind.wav[39m[0m
+[92m[ DONE ][39m [1m_update_scan_actions[22m
+[0m
+[   0% ] [90m[1mreimport[22m | Started 애셋 (다시) 가져오는 중 (19 steps)[39m[0m
+[   0% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[   5% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  10% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  15% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  20% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  25% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  30% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  35% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  40% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  45% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  50% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  55% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  60% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  65% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  70% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  75% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  80% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  85% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  90% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[   0% ] [90m[1mreimport[22m | 다시 가져오기 전 작업을 수행 중...[39m[0m
+[   0% ] [90m[1mreimport[22m | paint_normal.png[39m[0m
+[   5% ] [90m[1mreimport[22m | ground.png[39m[0m
+[  10% ] [90m[1mreimport[22m | asphalt.png[39m[0m
+[  15% ] [90m[1mreimport[22m | paint_normal.png[39m[0m
+[  20% ] [90m[1mreimport[22m | ground.png[39m[0m
+[  25% ] [90m[1mreimport[22m | asphalt.png[39m[0m
+[  30% ] [90m[1mreimport[22m | wind.wav[39m[0m
+[  35% ] [90m[1mreimport[22m | tire.wav[39m[0m
+[  40% ] [90m[1mreimport[22m | shift.wav[39m[0m
+[  45% ] [90m[1mreimport[22m | rain.wav[39m[0m
+[  50% ] [90m[1mreimport[22m | mid.wav[39m[0m
+[  55% ] [90m[1mreimport[22m | low.wav[39m[0m
+[  60% ] [90m[1mreimport[22m | impact.wav[39m[0m
+[  65% ] [90m[1mreimport[22m | rocks.glb[39m[0m
+[   0% ] [90m[1mimport[22m | Started 씬 가져오기 (104 steps)[39m[0m
+[   0% ] [90m[1mimport[22m | 씬 가져오는 중...[39m[0m
+[   1% ] [90m[1mimport[22m | 커스텀 스크립트 실행 중...[39m[0m
+[  99% ] [90m[1mimport[22m | 저장 중...[39m[0m
+[92m[ DONE ][39m [1mimport[22m
+[0m
+[  70% ] [90m[1mreimport[22m | tree_0.glb[39m[0m
+[   0% ] [90m[1mimport[22m | Started 씬 가져오기 (104 steps)[39m[0m
+[   0% ] [90m[1mimport[22m | 씬 가져오는 중...[39m[0m
+[   1% ] [90m[1mimport[22m | 커스텀 스크립트 실행 중...[39m[0m
+[  99% ] [90m[1mimport[22m | 저장 중...[39m[0m
+[92m[ DONE ][39m [1mimport[22m
+[0m
+[  75% ] [90m[1mreimport[22m | tree_1.glb[39m[0m
+[   0% ] [90m[1mimport[22m | Started 씬 가져오기 (104 steps)[39m[0m
+[   0% ] [90m[1mimport[22m | 씬 가져오는 중...[39m[0m
+[   1% ] [90m[1mimport[22m | 커스텀 스크립트 실행 중...[39m[0m
+[  99% ] [90m[1mimport[22m | 저장 중...[39m[0m
+[92m[ DONE ][39m [1mimport[22m
+[0m
+[  80% ] [90m[1mreimport[22m | tree_2.glb[39m[0m
+[   0% ] [90m[1mimport[22m | Started 씬 가져오기 (104 steps)[39m[0m
+[   0% ] [90m[1mimport[22m | 씬 가져오는 중...[39m[0m
+[   1% ] [90m[1mimport[22m | 커스텀 스크립트 실행 중...[39m[0m
+[  99% ] [90m[1mimport[22m | 저장 중...[39m[0m
+[92m[ DONE ][39m [1mimport[22m
+[0m
+[  85% ] [90m[1mreimport[22m | wheel.glb[39m[0m
+[   0% ] [90m[1mimport[22m | Started 씬 가져오기 (104 steps)[39m[0m
+[   0% ] [90m[1mimport[22m | 씬 가져오는 중...[39m[0m
+[   1% ] [90m[1mimport[22m | 커스텀 스크립트 실행 중...[39m[0m
+[  99% ] [90m[1mimport[22m | 저장 중...[39m[0m
+[92m[ DONE ][39m [1mimport[22m
+[0m
+[  90% ] [90m[1mreimport[22m | aster_gt.glb[39m[0m
+[   0% ] [90m[1mimport[22m | Started 씬 가져오기 (104 steps)[39m[0m
+[   0% ] [90m[1mimport[22m | 씬 가져오는 중...[39m[0m
+[   1% ] [90m[1mimport[22m | 커스텀 스크립트 실행 중...[39m[0m
+[  99% ] [90m[1mimport[22m | 저장 중...[39m[0m
+[92m[ DONE ][39m [1mimport[22m
+[0m
+[  95% ] [90m[1mreimport[22m | 애셋 가져오기 마무리 중...[39m[0m
+[92m[ DONE ][39m [1mreimport[22m
+[0m
+[   0% ] [90m[1mreimport[22m | Started 애셋 (다시) 가져오는 중 (19 steps)[39m[0m
+[   0% ] [90m[1mreimport[22m | 다시 가져오기 후 작업을 수행 중...[39m[0m
+[92m[ DONE ][39m [1mreimport[22m
+[0m
+[   0% ] [90m[1mloading_editor_layout[22m | Started 편집기를 불러오는 중 (5 steps)[39m[0m
+[   0% ] [90m[1mloading_editor_layout[22m | 편집기 레이아웃을 불러오는 중...[39m[0m
+[  16% ] [90m[1mloading_editor_layout[22m | 독을 불러오는 중...[39m[0m
+[92m[ DONE ][39m [1mloading_editor_layout[22m
+[0m
+SCRIPT ERROR: Parse Error: Cannot find member "REFLECTED_LIGHT_SOURCE_SKY" in base "Environment".
+   at: GDScript::reload (res://scripts/world.gd:85)
+SCRIPT ERROR: Compile Error: Failed to compile depended scripts.
+   at: GDScript::reload (res://scripts/main.gd:0)
+ERROR: Failed to load script "res://scripts/main.gd" with error "Parse error".
+   at: load (modules/gdscript/gdscript.cpp:2907)
+ERROR: EditorSettings not instantiated yet when getting setting "export/android/android_sdk_path".
+   at: _EDITOR_GET (editor/settings/editor_settings.cpp:1531)

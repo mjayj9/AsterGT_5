@@ -1,0 +1,15 @@
+Godot Engine v4.6.3.stable.mono.official.7d41c59c4 - https://godotengine.org
+Vulkan 1.4.341 - Forward+ - Using Device #0: NVIDIA - NVIDIA GeForce RTX 5060 Laptop GPU
+
+ROAD_LENGTH_M=26037.60546875
+ASTER_READY  route_km=26.03760546875  vehicle=GT-500
+CAPTURED 01_garage
+CAPTURED 02_driving
+CAPTURED 03_bumper
+CAPTURED 04_hood
+CAPTURED 05_cockpit
+CAPTURED 06_rain_night
+CAPTURED 07_setup
+QA_COMPLETE { "speed_kph": 0.00000577855403, "rpm": 850.0, "gear": 1, "selector": "D", "automatic": true, "throttle": 0.0, "brake": 1.0, "clutch": 0.0, "steer": 0.0, "grounded": 4, "abs": false, "tcs": false, "esc": false, "slip": 0.00000000078769, "position": [2.79999995231628, 0.67036211490631, -269.514038085938] }
+WARNING: 7 RIDs of type "Texture" were leaked.
+   at: finalize (servers/rendering/rendering_device.cpp:7505)

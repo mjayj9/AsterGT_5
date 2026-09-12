@@ -1,0 +1,336 @@
+C:\Users\admin\Documents\Codex\2026-09-08\fable-5-1-vs-fable-at-3\work\build_models.py:9: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  m=bpy.data.materials.new(name);m.diffuse_color=(*color,1);m.use_nodes=True
+Info: Saved as "aster_gt.blend"
+INFO Draco is available, use library at C:\Program Files\Blender Foundation\Blender 5.2\5.2\scripts\addons_core\io_scene_gltf2\bf_intern_draco_bridge.dll
+INFO MeshOptimizer is available, use library at C:\Program Files\Blender Foundation\Blender 5.2\5.2\scripts\addons_core\io_scene_gltf2\bf_intern_meshopt_bridge.dll
+21:46:02 | INFO: Starting glTF 2.0 export
+21:46:02 | INFO: Extracting primitive: A_pillar_1
+21:46:02 | INFO: Primitives created: 1
+21:46:02 | INFO: Extracting primitive: A_pillar_-1
+21:46:02 | INFO: Primitives created: 1
+21:46:02 | INFO: Extracting primitive: Aster_emblem
+21:46:02 | INFO: Primitives created: 1
+21:46:02 | INFO: Extracting primitive: B_pillar_1
+21:46:02 | INFO: Primitives created: 1
+21:46:02 | INFO: Extracting primitive: B_pillar_-1
+21:46:02 | INFO: Primitives created: 1
+21:46:02 | INFO: Extracting primitive: Body_Sculpted_GT
+21:46:02 | INFO: Primitives created: 1
+21:46:02 | INFO: Extracting primitive: C_pillar_1
+21:46:02 | INFO: Primitives created: 1
+21:46:02 | INFO: Extracting primitive: C_pillar_-1
+21:46:02 | INFO: Primitives created: 1
+21:46:02 | INFO: Extracting primitive: Cube.037
+21:46:02 | INFO: Primitives created: 1
+21:46:02 | INFO: Extracting primitive: Cube.041
+21:46:02 | INFO: Primitives created: 1
+21:46:02 | INFO: Extracting primitive: Cube.038
+21:46:02 | INFO: Primitives created: 1
+21:46:02 | INFO: Extracting primitive: Cube.031
+21:46:02 | INFO: Primitives created: 1
+21:46:02 | INFO: Extracting primitive: Cube.032
+21:46:02 | INFO: Primitives created: 1
+21:46:02 | INFO: Extracting primitive: Cube.033
+21:46:02 | INFO: Primitives created: 1
+21:46:02 | INFO: Extracting primitive: Cube.034
+21:46:02 | INFO: Primitives created: 1
+21:46:02 | INFO: Extracting primitive: Cube.035
+21:46:02 | INFO: Primitives created: 1
+21:46:02 | INFO: Extracting primitive: Door_seam_1
+21:46:02 | INFO: Primitives created: 1
+21:46:02 | INFO: Extracting primitive: Door_seam_-1
+21:46:02 | INFO: Primitives created: 1
+21:46:02 | INFO: Extracting primitive: Cube.036
+21:46:02 | INFO: Primitives created: 1
+21:46:02 | INFO: Extracting primitive: Cylinder.003
+21:46:02 | INFO: Primitives created: 1
+21:46:02 | INFO: Extracting primitive: Cylinder.002
+21:46:02 | INFO: Primitives created: 1
+21:46:02 | INFO: Extracting primitive: Cube.015
+21:46:02 | INFO: Primitives created: 1
+21:46:02 | INFO: Extracting primitive: Cube.016
+21:46:02 | INFO: Primitives created: 1
+21:46:02 | INFO: Extracting primitive: Cube.017
+21:46:02 | INFO: Primitives created: 1
+21:46:02 | INFO: Extracting primitive: Cube.006
+21:46:02 | INFO: Primitives created: 1
+21:46:02 | INFO: Extracting primitive: Cube.007
+21:46:02 | INFO: Primitives created: 1
+21:46:02 | INFO: Extracting primitive: Cube.008
+21:46:02 | INFO: Primitives created: 1
+21:46:02 | INFO: Extracting primitive: Cube.010
+21:46:02 | INFO: Primitives created: 1
+21:46:02 | INFO: Extracting primitive: Cube.001
+21:46:02 | INFO: Primitives created: 1
+21:46:02 | INFO: Extracting primitive: Cube.020
+21:46:02 | INFO: Primitives created: 1
+21:46:02 | INFO: Extracting primitive: FrontSignal_1
+21:46:02 | INFO: Primitives created: 1
+21:46:02 | INFO: Extracting primitive: FrontSignal_-1
+21:46:02 | INFO: Primitives created: 1
+21:46:02 | INFO: Extracting primitive: Cube.021
+21:46:02 | INFO: Primitives created: 1
+21:46:02 | INFO: Extracting primitive: Cube.022
+21:46:02 | INFO: Primitives created: 1
+21:46:02 | INFO: Extracting primitive: Cube.023
+21:46:02 | INFO: Primitives created: 1
+21:46:02 | INFO: Extracting primitive: Cube.024
+21:46:02 | INFO: Primitives created: 1
+21:46:02 | INFO: Extracting primitive: Cube.025
+21:46:02 | INFO: Primitives created: 1
+21:46:02 | INFO: Extracting primitive: Cube.026
+21:46:02 | INFO: Primitives created: 1
+21:46:02 | INFO: Extracting primitive: Cube.027
+21:46:02 | INFO: Primitives created: 1
+21:46:02 | INFO: Extracting primitive: Cube.028
+21:46:02 | INFO: Primitives created: 1
+21:46:02 | INFO: Extracting primitive: Cube.029
+21:46:02 | INFO: Primitives created: 1
+21:46:02 | INFO: Extracting primitive: Cube.013
+21:46:02 | INFO: Primitives created: 1
+21:46:02 | INFO: Extracting primitive: Cube.004
+21:46:02 | INFO: Primitives created: 1
+21:46:02 | INFO: Extracting primitive: Headlight_1
+21:46:02 | INFO: Primitives created: 1
+21:46:02 | INFO: Extracting primitive: Headlight_-1
+21:46:02 | INFO: Primitives created: 1
+21:46:02 | INFO: Extracting primitive: Cube.047
+21:46:02 | INFO: Primitives created: 1
+21:46:02 | INFO: Extracting primitive: Cube.044
+21:46:02 | INFO: Primitives created: 1
+21:46:02 | INFO: Extracting primitive: Cube.040
+21:46:02 | INFO: Primitives created: 1
+21:46:02 | INFO: Extracting primitive: Cube.039
+21:46:02 | INFO: Primitives created: 1
+21:46:02 | INFO: Extracting primitive: Cube.014
+21:46:02 | INFO: Primitives created: 1
+21:46:02 | INFO: Extracting primitive: Cube.005
+21:46:02 | INFO: Primitives created: 1
+21:46:02 | INFO: Extracting primitive: Sphere.001
+21:46:02 | INFO: Primitives created: 1
+21:46:02 | INFO: Extracting primitive: Sphere
+21:46:02 | INFO: Primitives created: 1
+21:46:02 | INFO: Extracting primitive: Mirror_stalk_1
+21:46:02 | INFO: Primitives created: 1
+21:46:02 | INFO: Extracting primitive: Mirror_stalk_-1
+21:46:02 | INFO: Primitives created: 1
+21:46:02 | INFO: Extracting primitive: Cube.012
+21:46:02 | INFO: Primitives created: 1
+21:46:02 | INFO: Extracting primitive: Cube.003
+21:46:02 | INFO: Primitives created: 1
+21:46:02 | INFO: Extracting primitive: Cube.030
+21:46:02 | INFO: Primitives created: 1
+21:46:02 | INFO: Extracting primitive: RearGlass
+21:46:02 | INFO: Primitives created: 1
+21:46:02 | INFO: Extracting primitive: RearSignal_1
+21:46:02 | INFO: Primitives created: 1
+21:46:02 | INFO: Extracting primitive: RearSignal_-1
+21:46:02 | INFO: Primitives created: 1
+21:46:02 | INFO: Extracting primitive: Roof
+21:46:02 | INFO: Primitives created: 1
+21:46:02 | INFO: Extracting primitive: Cube.046
+21:46:02 | INFO: Primitives created: 1
+21:46:02 | INFO: Extracting primitive: Cube.043
+21:46:02 | INFO: Primitives created: 1
+21:46:02 | INFO: Extracting primitive: Cube.045
+21:46:02 | INFO: Primitives created: 1
+21:46:02 | INFO: Extracting primitive: Cube.042
+21:46:02 | INFO: Primitives created: 1
+21:46:02 | INFO: Extracting primitive: SideWindow_1
+21:46:02 | INFO: Primitives created: 1
+21:46:02 | INFO: Extracting primitive: SideWindow_-1
+21:46:02 | INFO: Primitives created: 1
+21:46:02 | INFO: Extracting primitive: Cube.011
+21:46:02 | INFO: Primitives created: 1
+21:46:02 | INFO: Extracting primitive: Cube.002
+21:46:02 | INFO: Primitives created: 1
+21:46:02 | INFO: Extracting primitive: Cube.019
+21:46:02 | INFO: Primitives created: 1
+21:46:02 | INFO: Extracting primitive: SteeringSpoke
+21:46:02 | INFO: Primitives created: 1
+21:46:02 | INFO: Extracting primitive: SteeringSpoke.001
+21:46:02 | INFO: Primitives created: 1
+21:46:02 | INFO: Extracting primitive: SteeringSpoke.002
+21:46:02 | INFO: Primitives created: 1
+21:46:02 | INFO: Extracting primitive: SteeringWheel
+21:46:02 | INFO: Primitives created: 1
+21:46:02 | INFO: Extracting primitive: Taillight_1
+21:46:02 | INFO: Primitives created: 1
+21:46:02 | INFO: Extracting primitive: Taillight_-1
+21:46:02 | INFO: Primitives created: 1
+21:46:02 | INFO: Extracting primitive: Cube.018
+21:46:02 | INFO: Primitives created: 1
+21:46:02 | INFO: Extracting primitive: Cube.009
+21:46:02 | INFO: Primitives created: 1
+21:46:02 | INFO: Extracting primitive: WindowTrim_1
+21:46:02 | INFO: Primitives created: 1
+21:46:02 | INFO: Extracting primitive: WindowTrim_-1
+21:46:02 | INFO: Primitives created: 1
+21:46:02 | INFO: Extracting primitive: Windshield
+21:46:02 | INFO: Primitives created: 1
+21:46:02 | INFO: Finished glTF 2.0 export in 0.3873634338378906 s
+
+Info: Saved as "wheel.blend"
+21:46:02 | INFO: Starting glTF 2.0 export
+21:46:02 | INFO: Extracting primitive: Cube.048
+21:46:02 | INFO: Primitives created: 1
+21:46:02 | INFO: Extracting primitive: Cylinder.011
+21:46:02 | INFO: Primitives created: 1
+21:46:02 | INFO: Extracting primitive: ForgedSpoke_0
+21:46:02 | INFO: Primitives created: 1
+21:46:02 | INFO: Extracting primitive: ForgedSpoke_1
+21:46:02 | INFO: Primitives created: 1
+21:46:02 | INFO: Extracting primitive: ForgedSpoke_2
+21:46:02 | INFO: Primitives created: 1
+21:46:02 | INFO: Extracting primitive: ForgedSpoke_3
+21:46:02 | INFO: Primitives created: 1
+21:46:02 | INFO: Extracting primitive: ForgedSpoke_4
+21:46:02 | INFO: Primitives created: 1
+21:46:02 | INFO: Extracting primitive: ForgedSpoke_5
+21:46:02 | INFO: Primitives created: 1
+21:46:02 | INFO: Extracting primitive: ForgedSpoke_6
+21:46:02 | INFO: Primitives created: 1
+21:46:02 | INFO: Extracting primitive: ForgedSpoke_7
+21:46:02 | INFO: Primitives created: 1
+21:46:02 | INFO: Extracting primitive: ForgedSpoke_8
+21:46:02 | INFO: Primitives created: 1
+21:46:02 | INFO: Extracting primitive: ForgedSpoke_9
+21:46:02 | INFO: Primitives created: 1
+21:46:02 | INFO: Extracting primitive: Cylinder.012
+21:46:02 | INFO: Primitives created: 1
+21:46:02 | INFO: Extracting primitive: Cylinder.013
+21:46:02 | INFO: Primitives created: 1
+21:46:02 | INFO: Extracting primitive: Cylinder.014
+21:46:02 | INFO: Primitives created: 1
+21:46:02 | INFO: Extracting primitive: Cylinder.015
+21:46:02 | INFO: Primitives created: 1
+21:46:02 | INFO: Extracting primitive: Cylinder.016
+21:46:02 | INFO: Primitives created: 1
+21:46:02 | INFO: Extracting primitive: Cylinder.017
+21:46:02 | INFO: Primitives created: 1
+21:46:02 | INFO: Extracting primitive: Cylinder.006
+21:46:02 | INFO: Primitives created: 1
+21:46:02 | INFO: Extracting primitive: Cylinder.009
+21:46:02 | INFO: Primitives created: 1
+21:46:02 | INFO: Extracting primitive: Cylinder.005
+21:46:02 | INFO: Primitives created: 1
+21:46:02 | INFO: Extracting primitive: Cylinder.008
+21:46:02 | INFO: Primitives created: 1
+21:46:02 | INFO: Extracting primitive: Cylinder.004
+21:46:02 | INFO: Primitives created: 1
+21:46:02 | INFO: Extracting primitive: Tread_0
+21:46:02 | INFO: Primitives created: 1
+21:46:02 | INFO: Extracting primitive: Tread_1
+21:46:02 | INFO: Primitives created: 1
+21:46:02 | INFO: Extracting primitive: Tread_2
+21:46:02 | INFO: Primitives created: 1
+21:46:02 | INFO: Extracting primitive: Tread_3
+21:46:02 | INFO: Primitives created: 1
+21:46:02 | INFO: Extracting primitive: Tread_4
+21:46:02 | INFO: Primitives created: 1
+21:46:02 | INFO: Extracting primitive: Tread_5
+21:46:02 | INFO: Primitives created: 1
+21:46:02 | INFO: Extracting primitive: Tread_6
+21:46:02 | INFO: Primitives created: 1
+21:46:02 | INFO: Extracting primitive: Tread_7
+21:46:02 | INFO: Primitives created: 1
+21:46:02 | INFO: Extracting primitive: Tread_8
+21:46:02 | INFO: Primitives created: 1
+21:46:02 | INFO: Extracting primitive: Tread_9
+21:46:02 | INFO: Primitives created: 1
+21:46:02 | INFO: Extracting primitive: Tread_10
+21:46:02 | INFO: Primitives created: 1
+21:46:02 | INFO: Extracting primitive: Tread_11
+21:46:02 | INFO: Primitives created: 1
+21:46:02 | INFO: Extracting primitive: Tread_12
+21:46:02 | INFO: Primitives created: 1
+21:46:02 | INFO: Extracting primitive: Tread_13
+21:46:02 | INFO: Primitives created: 1
+21:46:02 | INFO: Extracting primitive: Tread_14
+21:46:02 | INFO: Primitives created: 1
+21:46:02 | INFO: Extracting primitive: Tread_15
+21:46:02 | INFO: Primitives created: 1
+21:46:02 | INFO: Extracting primitive: Tread_16
+21:46:02 | INFO: Primitives created: 1
+21:46:02 | INFO: Extracting primitive: Tread_17
+21:46:02 | INFO: Primitives created: 1
+21:46:02 | INFO: Extracting primitive: Tread_18
+21:46:02 | INFO: Primitives created: 1
+21:46:02 | INFO: Extracting primitive: Tread_19
+21:46:02 | INFO: Primitives created: 1
+21:46:02 | INFO: Extracting primitive: Tread_20
+21:46:02 | INFO: Primitives created: 1
+21:46:02 | INFO: Extracting primitive: Tread_21
+21:46:02 | INFO: Primitives created: 1
+21:46:02 | INFO: Extracting primitive: Tread_22
+21:46:02 | INFO: Primitives created: 1
+21:46:02 | INFO: Extracting primitive: Tread_23
+21:46:02 | INFO: Primitives created: 1
+21:46:02 | INFO: Extracting primitive: Tread_24
+21:46:02 | INFO: Primitives created: 1
+21:46:02 | INFO: Extracting primitive: Tread_25
+21:46:02 | INFO: Primitives created: 1
+21:46:02 | INFO: Extracting primitive: Tread_26
+21:46:02 | INFO: Primitives created: 1
+21:46:02 | INFO: Extracting primitive: Tread_27
+21:46:02 | INFO: Primitives created: 1
+21:46:02 | INFO: Extracting primitive: Tread_28
+21:46:02 | INFO: Primitives created: 1
+21:46:02 | INFO: Extracting primitive: Tread_29
+21:46:02 | INFO: Primitives created: 1
+21:46:02 | INFO: Extracting primitive: Tread_30
+21:46:02 | INFO: Primitives created: 1
+21:46:02 | INFO: Extracting primitive: Tread_31
+21:46:02 | INFO: Primitives created: 1
+21:46:02 | INFO: Extracting primitive: Tread_32
+21:46:02 | INFO: Primitives created: 1
+21:46:02 | INFO: Extracting primitive: Tread_33
+21:46:02 | INFO: Primitives created: 1
+21:46:02 | INFO: Extracting primitive: Tread_34
+21:46:02 | INFO: Primitives created: 1
+21:46:02 | INFO: Extracting primitive: Tread_35
+21:46:02 | INFO: Primitives created: 1
+21:46:02 | INFO: Extracting primitive: Tread_36
+21:46:02 | INFO: Primitives created: 1
+21:46:02 | INFO: Extracting primitive: Tread_37
+21:46:02 | INFO: Primitives created: 1
+21:46:02 | INFO: Extracting primitive: Tread_38
+21:46:02 | INFO: Primitives created: 1
+21:46:02 | INFO: Extracting primitive: Tread_39
+21:46:02 | INFO: Primitives created: 1
+21:46:02 | INFO: Extracting primitive: Cylinder.007
+21:46:02 | INFO: Primitives created: 1
+21:46:02 | INFO: Extracting primitive: Cylinder.010
+21:46:02 | INFO: Primitives created: 1
+21:46:02 | INFO: Finished glTF 2.0 export in 0.1834096908569336 s
+C:\Users\admin\Documents\Codex\2026-09-08\fable-5-1-vs-fable-at-3\work\build_models.py:9: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  m=bpy.data.materials.new(name);m.diffuse_color=(*color,1);m.use_nodes=True
+
+Info: Saved as "tree_0.blend"
+21:46:02 | INFO: Starting glTF 2.0 export
+21:46:02 | INFO: Extracting primitive: Trunk
+21:46:02 | INFO: Primitives created: 5
+21:46:02 | INFO: Finished glTF 2.0 export in 0.022039175033569336 s
+
+Info: Saved as "tree_1.blend"
+21:46:02 | INFO: Starting glTF 2.0 export
+21:46:02 | INFO: Extracting primitive: Trunk.001
+21:46:02 | INFO: Primitives created: 5
+21:46:02 | INFO: Finished glTF 2.0 export in 0.015829801559448242 s
+
+Info: Saved as "tree_2.blend"
+21:46:03 | INFO: Starting glTF 2.0 export
+21:46:03 | INFO: Extracting primitive: Trunk.002
+21:46:03 | INFO: Primitives created: 5
+21:46:03 | INFO: Finished glTF 2.0 export in 0.02147054672241211 s
+
+Info: Saved as "roadside_rocks.blend"
+21:46:03 | INFO: Starting glTF 2.0 export
+21:46:03 | INFO: Extracting primitive: Icosphere.022
+21:46:03 | INFO: Primitives created: 1
+21:46:03 | INFO: Finished glTF 2.0 export in 0.00605010986328125 s
+
+ASTER_MODEL_BUILD_COMPLETE
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit

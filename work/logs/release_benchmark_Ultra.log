@@ -1,0 +1,6 @@
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+Vulkan 1.4.341 - Forward+ - Using Device #0: NVIDIA - NVIDIA GeForce RTX 5060 Laptop GPU
+
+ROAD_LENGTH_M=26037.60546875
+ASTER_READY  route_km=26.03760546875  vehicle=GT-500
+{ "preset": "Ultra_benchmark", "resolution": "1920x1080", "average_fps": 222.190027208489, "minimum_fps": 108.495171964848, "one_percent_low_fps": 179.083094555874, "frames": 2667, "renderer": "forward_plus", "adapter": "NVIDIA GeForce RTX 5060 Laptop GPU" }

@@ -1,0 +1,9 @@
+Godot Engine v4.6.3.stable.mono.official.7d41c59c4 - https://godotengine.org
+
+ROAD_LENGTH_M=23546.58203125
+WARNING: Can't change the size of a `SubViewport` with a `SubViewportContainer` parent that has `stretch` enabled. Set `SubViewportContainer.stretch` to `false` to allow changing the size manually.
+   at: _internal_set_size (scene/main/viewport.cpp:5429)
+   GDScript backtrace (most recent call first):
+       [0] apply_graphics (res://scripts/main.gd:194)
+       [1] _ready (res://scripts/main.gd:50)
+ASTER_READY  route_km=23.54658203125  vehicle=GT-500

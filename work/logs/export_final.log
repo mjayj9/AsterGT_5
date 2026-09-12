@@ -1,0 +1,104 @@
+Godot Engine v4.6.3.stable.mono.official.7d41c59c4 - https://godotengine.org
+
+[   0% ] [90m[1mfirst_scan_filesystem[22m | Started 프로젝트 초기화 (5 steps)[39m[0m
+[   0% ] [90m[1mfirst_scan_filesystem[22m | 파일 구조 스캔 중...[39m[0m
+[  16% ] [90m[1mfirst_scan_filesystem[22m | 전역 클래스 이름을 불러오는 중...[39m[0m
+[  33% ] [90m[1mfirst_scan_filesystem[22m | GDExtensions 검증 중...[39m[0m
+[  50% ] [90m[1mfirst_scan_filesystem[22m | 오토로드 스크립트를 만드는 중...[39m[0m
+[  66% ] [90m[1mfirst_scan_filesystem[22m | 플러그인을 초기화 중...[39m[0m
+[  83% ] [90m[1mfirst_scan_filesystem[22m | 파일 스캔 시작 중...[39m[0m
+[92m[ DONE ][39m [1mfirst_scan_filesystem[22m
+[0m
+[   0% ] [90m[1mupdate_scripts_classes[22m | Started 전역 클래스를 등록하는 중... (2 steps)[39m[0m
+[   0% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  33% ] [90m[1mupdate_scripts_classes[22m | GTWorld[39m[0m
+[92m[ DONE ][39m [1mupdate_scripts_classes[22m
+[0m
+[   0% ] [90m[1mloading_editor_layout[22m | Started 편집기를 불러오는 중 (5 steps)[39m[0m
+[   0% ] [90m[1mloading_editor_layout[22m | 편집기 레이아웃을 불러오는 중...[39m[0m
+[  16% ] [90m[1mloading_editor_layout[22m | 독을 불러오는 중...[39m[0m
+[92m[ DONE ][39m [1mloading_editor_layout[22m
+[0m
+Godot Engine v4.6.3.stable.mono.official.7d41c59c4 - https://godotengine.org
+
+[   0% ] [90m[1mfirst_scan_filesystem[22m | Started 프로젝트 초기화 (5 steps)[39m[0m
+[   0% ] [90m[1mfirst_scan_filesystem[22m | 파일 구조 스캔 중...[39m[0m
+[  16% ] [90m[1mfirst_scan_filesystem[22m | 전역 클래스 이름을 불러오는 중...[39m[0m
+[  33% ] [90m[1mfirst_scan_filesystem[22m | GDExtensions 검증 중...[39m[0m
+[  50% ] [90m[1mfirst_scan_filesystem[22m | 오토로드 스크립트를 만드는 중...[39m[0m
+[  66% ] [90m[1mfirst_scan_filesystem[22m | 플러그인을 초기화 중...[39m[0m
+[  83% ] [90m[1mfirst_scan_filesystem[22m | 파일 스캔 시작 중...[39m[0m
+[92m[ DONE ][39m [1mfirst_scan_filesystem[22m
+[0m
+[   0% ] [90m[1msavepack[22m | Started 패킹 중 (102 steps)[39m[0m
+[   1% ] [90m[1msavepack[22m | 파일 저장 중: res://.godot/imported/asphalt.png-b73a3d15c247eb563a9e28eea6db3d97.ctex[39m[0m
+[   1% ] [90m[1msavepack[22m | 파일 저장 중: res://assets/asphalt.png.import[39m[0m
+[   4% ] [90m[1msavepack[22m | 파일 저장 중: res://.godot/imported/aster_gt.glb-bb42d7510bec190f80a0bd00337e57e6.scn[39m[0m
+[   4% ] [90m[1msavepack[22m | 파일 저장 중: res://assets/aster_gt.glb.import[39m[0m
+[   7% ] [90m[1msavepack[22m | 파일 저장 중: res://.godot/imported/ground.png-328d82a69941a655cdd4638d3455ed11.ctex[39m[0m
+[   7% ] [90m[1msavepack[22m | 파일 저장 중: res://assets/ground.png.import[39m[0m
+[  10% ] [90m[1msavepack[22m | 파일 저장 중: res://.godot/imported/high.wav-6a7c20c1d5119c2b9528a0214633b9e8.sample[39m[0m
+[  10% ] [90m[1msavepack[22m | 파일 저장 중: res://assets/high.wav.import[39m[0m
+[  13% ] [90m[1msavepack[22m | 파일 저장 중: res://.godot/imported/horn.wav-ccbfe0b8ada1e4008f6f06b6f899f9ca.sample[39m[0m
+[  13% ] [90m[1msavepack[22m | 파일 저장 중: res://assets/horn.wav.import[39m[0m
+[  16% ] [90m[1msavepack[22m | 파일 저장 중: res://.godot/imported/idle.wav-767f77aad5366e8411f4665fc60a146a.sample[39m[0m
+[  16% ] [90m[1msavepack[22m | 파일 저장 중: res://assets/idle.wav.import[39m[0m
+[  19% ] [90m[1msavepack[22m | 파일 저장 중: res://.godot/imported/impact.wav-1512a9a48d9eb098230483400a0a756e.sample[39m[0m
+[  19% ] [90m[1msavepack[22m | 파일 저장 중: res://assets/impact.wav.import[39m[0m
+[  22% ] [90m[1msavepack[22m | 파일 저장 중: res://.godot/imported/low.wav-0d9cefa76fa62d6dbe247d06eea566f2.sample[39m[0m
+[  22% ] [90m[1msavepack[22m | 파일 저장 중: res://assets/low.wav.import[39m[0m
+[  26% ] [90m[1msavepack[22m | 파일 저장 중: res://.godot/imported/mid.wav-b3346d01d1e557e04404eb6d59330077.sample[39m[0m
+[  26% ] [90m[1msavepack[22m | 파일 저장 중: res://assets/mid.wav.import[39m[0m
+[  29% ] [90m[1msavepack[22m | 파일 저장 중: res://.godot/imported/paint_normal.png-95b1d7874dcc8ae7a3c7f02eecfadff8.ctex[39m[0m
+[  29% ] [90m[1msavepack[22m | 파일 저장 중: res://assets/paint_normal.png.import[39m[0m
+[  32% ] [90m[1msavepack[22m | 파일 저장 중: res://.godot/imported/rain.wav-2da2872ff604935011e2cc8f98d0f545.sample[39m[0m
+[  32% ] [90m[1msavepack[22m | 파일 저장 중: res://assets/rain.wav.import[39m[0m
+[  34% ] [90m[1msavepack[22m | 파일 저장 중: res://.godot/imported/rocks.glb-1f9074c0fb2b7ac9084dd5c5258814f4.scn[39m[0m
+[  34% ] [90m[1msavepack[22m | 파일 저장 중: res://assets/rocks.glb.import[39m[0m
+[  37% ] [90m[1msavepack[22m | 파일 저장 중: res://.godot/imported/roll.wav-919c09b21619c6ca903e916565f91ec1.sample[39m[0m
+[  37% ] [90m[1msavepack[22m | 파일 저장 중: res://assets/roll.wav.import[39m[0m
+[  40% ] [90m[1msavepack[22m | 파일 저장 중: res://.godot/imported/shift.wav-9fcfd81c7c3d17eb9dfac7f710d2cd7f.sample[39m[0m
+[  40% ] [90m[1msavepack[22m | 파일 저장 중: res://assets/shift.wav.import[39m[0m
+[  43% ] [90m[1msavepack[22m | 파일 저장 중: res://.godot/imported/tire.wav-6f1b764671e8facbcc600427ed0995a2.sample[39m[0m
+[  43% ] [90m[1msavepack[22m | 파일 저장 중: res://assets/tire.wav.import[39m[0m
+[  46% ] [90m[1msavepack[22m | 파일 저장 중: res://.godot/imported/tree_0.glb-3693430139b64cc7f33756ad69ad178d.scn[39m[0m
+[  46% ] [90m[1msavepack[22m | 파일 저장 중: res://assets/tree_0.glb.import[39m[0m
+[  50% ] [90m[1msavepack[22m | 파일 저장 중: res://.godot/imported/tree_1.glb-0cc630b1520d70724d68fd665a0fff9c.scn[39m[0m
+[  50% ] [90m[1msavepack[22m | 파일 저장 중: res://assets/tree_1.glb.import[39m[0m
+[  53% ] [90m[1msavepack[22m | 파일 저장 중: res://.godot/imported/tree_2.glb-002774e7005faf9f1af5213c6894338b.scn[39m[0m
+[  53% ] [90m[1msavepack[22m | 파일 저장 중: res://assets/tree_2.glb.import[39m[0m
+[  56% ] [90m[1msavepack[22m | 파일 저장 중: res://.godot/imported/wheel.glb-3e83fad267bf883c047e023a7b7c5075.scn[39m[0m
+[  56% ] [90m[1msavepack[22m | 파일 저장 중: res://assets/wheel.glb.import[39m[0m
+[  59% ] [90m[1msavepack[22m | 파일 저장 중: res://.godot/imported/wind.wav-fd532ecae9b3262cf580665a8d5650e1.sample[39m[0m
+[  59% ] [90m[1msavepack[22m | 파일 저장 중: res://assets/wind.wav.import[39m[0m
+[  62% ] [90m[1msavepack[22m | 파일 저장 중: res://.godot/exported/133200997/export-4f9c9f79bb8f45058df92cbb2d96d23a-street.res[39m[0m
+[  65% ] [90m[1msavepack[22m | 파일 저장 중: res://.godot/exported/133200997/export-3ad5c15c4f3250da0cc7c1af1770d85f-main.scn[39m[0m
+[  67% ] [90m[1msavepack[22m | 파일 저장 중: res://scripts/camera_rig.gdc[39m[0m
+[  70% ] [90m[1msavepack[22m | 파일 저장 중: res://scripts/car.gdc[39m[0m
+[  74% ] [90m[1msavepack[22m | 파일 저장 중: res://scripts/car_audio.gdc[39m[0m
+[  77% ] [90m[1msavepack[22m | 파일 저장 중: res://scripts/controls.gdc[39m[0m
+[  80% ] [90m[1msavepack[22m | 파일 저장 중: res://scripts/hud.gdc[39m[0m
+[  83% ] [90m[1msavepack[22m | 파일 저장 중: res://scripts/main.gdc[39m[0m
+[  86% ] [90m[1msavepack[22m | 파일 저장 중: res://scripts/traffic.gdc[39m[0m
+[  89% ] [90m[1msavepack[22m | 파일 저장 중: res://scripts/vehicle_config.gdc[39m[0m
+[  92% ] [90m[1msavepack[22m | 파일 저장 중: res://scripts/world.gdc[39m[0m
+[  95% ] [90m[1msavepack[22m | 파일 저장 중: res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex[39m[0m
+[  95% ] [90m[1msavepack[22m | 파일 저장 중: res://icon.svg.import[39m[0m
+[  95% ] [90m[1msavepack[22m | 파일 저장 중: res://config/street.tres.remap[39m[0m
+[  95% ] [90m[1msavepack[22m | 파일 저장 중: res://scenes/main.tscn.remap[39m[0m
+[  95% ] [90m[1msavepack[22m | 파일 저장 중: res://scripts/camera_rig.gd.remap[39m[0m
+[  95% ] [90m[1msavepack[22m | 파일 저장 중: res://scripts/car.gd.remap[39m[0m
+[  95% ] [90m[1msavepack[22m | 파일 저장 중: res://scripts/car_audio.gd.remap[39m[0m
+[  95% ] [90m[1msavepack[22m | 파일 저장 중: res://scripts/controls.gd.remap[39m[0m
+[  95% ] [90m[1msavepack[22m | 파일 저장 중: res://scripts/hud.gd.remap[39m[0m
+[  95% ] [90m[1msavepack[22m | 파일 저장 중: res://scripts/main.gd.remap[39m[0m
+[  95% ] [90m[1msavepack[22m | 파일 저장 중: res://scripts/traffic.gd.remap[39m[0m
+[  95% ] [90m[1msavepack[22m | 파일 저장 중: res://scripts/vehicle_config.gd.remap[39m[0m
+[  95% ] [90m[1msavepack[22m | 파일 저장 중: res://scripts/world.gd.remap[39m[0m
+[  95% ] [90m[1msavepack[22m | 파일 저장 중: res://.godot/global_script_class_cache.cfg[39m[0m
+[  95% ] [90m[1msavepack[22m | 파일 저장 중: res://icon.svg[39m[0m
+[  95% ] [90m[1msavepack[22m | 파일 저장 중: res://.godot/uid_cache.bin[39m[0m
+[  95% ] [90m[1msavepack[22m | 파일 저장 중: res://project.binary[39m[0m
+[92m[ DONE ][39m [1msavepack[22m
+[0m
+C:\Users\admin\Documents\Codex\2026-09-08\fable-5-1-vs-fable-at-3\outputs\Windows\AsterGT.exe

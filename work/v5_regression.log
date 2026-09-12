@@ -1,0 +1,5 @@
+Godot Engine v4.6.3.stable.mono.official.7d41c59c4 - https://godotengine.org
+
+ROAD_LENGTH_M=26037.60546875
+ASTER_READY  route_km=26.03760546875  vehicle=Porsche 992 GT3 R
+V5_REGRESSION {"apply_ms":31.975,"changed_vertices":2963,"contact_point":"(-0.764893, -0.184877, 2.050853)","failures":[],"max_displacement_m":0.137018203735352,"opposite_side":0,"outside_radius":0,"selected_mesh":"Exterior_EXT_Carpaint_Inst","status":"PASS","topics":24}
