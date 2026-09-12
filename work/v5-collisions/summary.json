@@ -1,0 +1,147 @@
+[
+  {
+    "condition": "C1",
+    "exit": 0,
+    "pair_events": 2,
+    "sources": [
+      "incoming_speed_estimate"
+    ],
+    "a_patches": 1,
+    "b_patches": 1,
+    "a_damage": {
+      "body": 0.0350992350630038,
+      "front": 0.081898215147009,
+      "left": 0.0,
+      "lights": 0.081898215147009,
+      "power": 0.0286643753014531,
+      "rear": 0.0,
+      "right": 0.0,
+      "steering": 0.0
+    },
+    "b_damage": {
+      "body": 0.0350986222241567,
+      "front": 0.0,
+      "left": 0.0,
+      "lights": 0.081896785189699,
+      "power": 0.0286638748163946,
+      "rear": 0.081896785189699,
+      "right": 0.0,
+      "steering": 0.0
+    },
+    "max_radius_m": 0.351958586787637,
+    "max_depth_m": 0.0382245644369499,
+    "target_recovery": true,
+    "finite": true,
+    "errors": [],
+    "status": "PASS"
+  },
+  {
+    "condition": "D1",
+    "exit": 0,
+    "pair_events": 4,
+    "sources": [
+      "incoming_speed_estimate",
+      "solver_impulse"
+    ],
+    "a_patches": 1,
+    "b_patches": 1,
+    "a_damage": {
+      "body": 0.00413624900655351,
+      "front": 0.00965124768195818,
+      "left": 0.0,
+      "lights": 0.00965124768195818,
+      "power": 0.00337793668868536,
+      "rear": 0.0,
+      "right": 0.0,
+      "steering": 0.0
+    },
+    "b_damage": {
+      "body": 0.00413079175082048,
+      "front": 0.0,
+      "left": 0.0,
+      "lights": 0.00963851408524779,
+      "power": 0.00337347992983672,
+      "rear": 0.00963851408524779,
+      "right": 0.0,
+      "steering": 0.0
+    },
+    "max_radius_m": 0.239030760638171,
+    "max_depth_m": 0.00219490793489863,
+    "target_recovery": true,
+    "finite": true,
+    "errors": [],
+    "status": "PASS"
+  },
+  {
+    "condition": "C3",
+    "exit": 0,
+    "pair_events": 4,
+    "sources": [
+      "incoming_speed_estimate"
+    ],
+    "a_patches": 2,
+    "b_patches": 2,
+    "a_damage": {
+      "body": 0.0897994280952187,
+      "front": 0.143880399750325,
+      "left": 0.0,
+      "lights": 0.143880399750325,
+      "power": 0.0503581399126136,
+      "rear": 0.0656515991385191,
+      "right": 0.0,
+      "steering": 0.0
+    },
+    "b_damage": {
+      "body": 0.0897259469911933,
+      "front": 0.0658869285086624,
+      "left": 0.0,
+      "lights": 0.143473614470789,
+      "power": 0.050215765064776,
+      "rear": 0.143473614470789,
+      "right": 0.0,
+      "steering": 0.0
+    },
+    "max_radius_m": 0.407922640003877,
+    "max_depth_m": 0.0691351603949671,
+    "target_recovery": true,
+    "finite": true,
+    "errors": [],
+    "status": "PASS"
+  },
+  {
+    "condition": "C4",
+    "exit": 0,
+    "pair_events": 2,
+    "sources": [
+      "incoming_speed_estimate"
+    ],
+    "a_patches": 1,
+    "b_patches": 1,
+    "a_damage": {
+      "body": 0.15,
+      "front": 0.35,
+      "left": 0.0,
+      "lights": 0.35,
+      "power": 0.1225,
+      "rear": 0.0,
+      "right": 0.0,
+      "steering": 0.0
+    },
+    "b_damage": {
+      "body": 0.15,
+      "front": 0.35,
+      "left": 0.0,
+      "lights": 0.35,
+      "power": 0.1225,
+      "rear": 0.0,
+      "right": 0.0,
+      "steering": 0.0
+    },
+    "max_radius_m": 0.55,
+    "max_depth_m": 0.16,
+    "target_recovery": true,
+    "finite": true,
+    "errors": [],
+    "status": "PASS"
+  }
+]
