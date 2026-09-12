@@ -1,0 +1,81 @@
+{
+  "schema_version": 4,
+  "units": "m, s, kg, N, Nm; angles rad unless named deg",
+  "near_min_m": 220,
+  "activation_horizon_s": 3,
+  "far_release_m": 420,
+  "far_update_s": 0.2,
+  "recovery_min_s": 5,
+  "stable_hold_s": 2,
+  "stable_speed_mps": 2,
+  "stable_spin_rad_s": 0.35,
+  "lane_width_m": 5.6,
+  "follow_headway_s": 1.7,
+  "follow_gap_m": 8,
+  "drive_accel_mps2": 2.4,
+  "brake_accel_mps2": 7,
+  "lateral_grip": 1,
+  "path_gain_s": 0.6,
+  "yaw_response_s": 1,
+  "spring_n_m": 42000,
+  "damper_ns_m": 4300,
+  "suspension_rest_m": 0.45,
+  "suspension_travel_m": 0.22,
+  "wheel_radius_m": 0.34,
+  "air_density": 1.225,
+  "rolling_resistance": 0.013,
+  "restitution": 0.05,
+  "friction": 0.45,
+  "classes": [
+    {
+      "name": "Compact",
+      "mass_kg": 1200,
+      "size_m": [
+        1.8,
+        1.4,
+        4.15
+      ],
+      "drag_area": 0.66
+    },
+    {
+      "name": "Sedan",
+      "mass_kg": 1580,
+      "size_m": [
+        1.9,
+        1.45,
+        4.65
+      ],
+      "drag_area": 0.73
+    },
+    {
+      "name": "SUV",
+      "mass_kg": 2050,
+      "size_m": [
+        2,
+        1.75,
+        4.8
+      ],
+      "drag_area": 0.94
+    }
+  ],
+  "cruise_min_mps": 19,
+  "cruise_max_mps": 29,
+  "speed_controller_gain_per_s": 1.2,
+  "lateral_damping_per_s": 4.0,
+  "path_lookahead_min_m": 8,
+  "max_steer_rad": 0.45,
+  "rejoin_speed_mps": 6,
+  "coast_after_impact_s": 1,
+  "obstacle_poll_s": 0.1,
+  "lane_target_rate_mps": 1.3,
+  "pass_gap_min_m": 12,
+  "pass_gap_max_m": 38,
+  "pass_duration_s": 6,
+  "pass_clearance_s": 5,
+  "pass_speed_advantage_mps": 2,
+  "merge_front_m": 25,
+  "merge_rear_m": 48,
+  "clearance_lateral_m": 2.5,
+  "indicator_error_m": 0.6,
+  "signal_period_s": 1
+}

@@ -1,0 +1,67 @@
+{
+  "schema_version": 4,
+  "executed": false,
+  "units": "SI; explicit kph labels only at input/report boundary",
+  "high_speed": {
+    "profile": "High Speed",
+    "auto_shift_assist": true,
+    "auto_clutch": true,
+    "rev_match": true,
+    "weather": "Clear",
+    "time_of_day": "Day",
+    "traffic_count": 0,
+    "start_along_m": 1180,
+    "tire_temperature_c": 70,
+    "damage": 0,
+    "target_zero_300_s": [
+      30,
+      35
+    ],
+    "target_top_speed_kph": [
+      315,
+      325
+    ]
+  },
+  "collision": {
+    "masses_kg": [
+      1200,
+      1580,
+      2050
+    ],
+    "speeds_kph": [
+      30,
+      100,
+      200,
+      300
+    ],
+    "angles_deg": [
+      0,
+      30,
+      90
+    ],
+    "counterpart_states": [
+      "stationary",
+      "moving",
+      "AI-AI"
+    ],
+    "hook": "GTTraffic.spawn_qa_vehicle(at, mass_kg, velocity_mps, spin_rad_s, controller=false)"
+  },
+  "viewports": [
+    [
+      1920,
+      1080
+    ],
+    [
+      1920,
+      1200
+    ],
+    [
+      2560,
+      1080
+    ],
+    [
+      3440,
+      1440
+    ]
+  ]
+}
