@@ -1,0 +1,20 @@
+{
+  "method": "SHA-256 of every file in both original trees, before vs after; names and byte counts also checked",
+  "originals": {
+    "fable-5-1-vs-fable-at-3": {
+      "files": 4223,
+      "added": [],
+      "removed": [],
+      "changed": [],
+      "pass": true
+    },
+    "fable-5-1-vs-fable-at-4": {
+      "files": 5010,
+      "added": [],
+      "removed": [],
+      "changed": [],
+      "pass": true
+    }
+  },
+  "pass": true
+}

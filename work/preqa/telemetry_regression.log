@@ -1,0 +1,3 @@
+Godot Engine v4.6.3.stable.mono.official.7d41c59c4 - https://godotengine.org
+
+PREQA_TELEMETRY_COORDINATES {"pass":true,"samples":[{"parent_translation_m":[0.0,0.0,0.0],"player_position_error_m":0.0,"player_reported_position":[8.0,2.0,8.0],"player_world_position":[8.0,2.0,8.0],"traffic_position_error_m":0.0,"traffic_reported_position":[8.5,2.0,4.5],"traffic_world_position":[8.5,2.0,4.5]},{"parent_translation_m":[4096.0,0.0,-2048.0],"player_position_error_m":0.0,"player_reported_position":[4104.0,2.0,-2040.0],"player_world_position":[4104.0,2.0,-2040.0],"traffic_position_error_m":0.0,"traffic_reported_position":[4104.5,2.0,-2043.5],"traffic_world_position":[4104.5,2.0,-2043.5]}],"scope":"coordinate-only production telemetry regression"}

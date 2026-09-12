@@ -1,0 +1,39 @@
+--- v4/scripts/car.gd
++++ pre-qa/scripts/car.gd
+@@ -384,7 +384,7 @@
+  if gear<0:return -cfg.reverse_ratio*cfg.final_drive
+  return 0
+ func telemetry() -> Dictionary:
+- return {"speed_kph":speed_kph,"rpm":rpm,"gear":gear,"selector":selector,"automatic":automatic,"auto_shift_assist":automatic,"auto_clutch":auto_clutch,"rev_match":rev_match,"shift_cut":shift_cut,"clutch_engagement":clutch_engagement,"manual_override_s":manual_override,"damage":damage.state.duplicate(),"contacts":damage.last_contacts.duplicate(true),"velocity_mps":[linear_velocity.x,linear_velocity.y,linear_velocity.z],"angular_velocity_rad_s":[angular_velocity.x,angular_velocity.y,angular_velocity.z],"throttle":throttle,"brake":brake,"clutch":clutch,"steer":steering,"grounded":grounded,"abs":abs_active,"tcs":tcs_active,"esc":esc_active,"slip":max_slip,"position":[position.x,position.y,position.z],"engine_on":engine_on,"engine_load":engine_load,"tire_temperature":wheels.map(func(w):return w.temperature),"tire_wear":wheels.map(func(w):return w.wear)}
++ return {"speed_kph":speed_kph,"rpm":rpm,"gear":gear,"selector":selector,"automatic":automatic,"auto_shift_assist":automatic,"auto_clutch":auto_clutch,"rev_match":rev_match,"shift_cut":shift_cut,"clutch_engagement":clutch_engagement,"manual_override_s":manual_override,"damage":damage.state.duplicate(),"contacts":damage.last_contacts.duplicate(true),"velocity_mps":[linear_velocity.x,linear_velocity.y,linear_velocity.z],"angular_velocity_rad_s":[angular_velocity.x,angular_velocity.y,angular_velocity.z],"throttle":throttle,"brake":brake,"clutch":clutch,"steer":steering,"grounded":grounded,"abs":abs_active,"tcs":tcs_active,"esc":esc_active,"slip":max_slip,"position":[global_position.x,global_position.y,global_position.z],"engine_on":engine_on,"engine_load":engine_load,"tire_temperature":wheels.map(func(w):return w.temperature),"tire_wear":wheels.map(func(w):return w.wear)}
+ func _process(_delta: float) -> void:
+  visual_timer+=_delta
+  if visual_timer>.1:
+--- v4/scripts/contact_damage.gd
++++ pre-qa/scripts/contact_damage.gd
+@@ -15,10 +15,15 @@
+   var impulse=physics.get_contact_impulse(i)
+   var normal=impulse.normalized() if impulse.length()>0.001 else raw_normal.normalized()
+   var relative=physics.get_contact_local_velocity_at_position(i)-physics.get_contact_collider_velocity_at_position(i)
+-  var r=point-physics.transform.origin-physics.center_of_mass
++  # GodotPhysics3D center_of_mass is a world-axis OFFSET from the body origin.
++  # Contact points are world positions. Keep both lever-arm endpoints in world space.
++  var world_center_of_mass=physics.transform.origin+physics.center_of_mass
++  var r=point-world_center_of_mass
+   var inverse_mass=physics.inverse_mass+normal.dot((physics.inverse_inertia_tensor*(r.cross(normal))).cross(r))
+   if other is RigidBody3D:
+-   var r2=point-other.global_position-other.global_basis*other.center_of_mass
++   # RigidBody3D.center_of_mass is body-local (both vehicle classes use CUSTOM).
++   var other_world_center_of_mass=other.global_transform*other.center_of_mass
++   var r2=point-other_world_center_of_mass
+    inverse_mass+=1.0/other.mass+normal.dot((other.get_inverse_inertia_tensor()*(r2.cross(normal))).cross(r2))
+   # Impulse-derived incident normal energy estimate; solver owns ALL response impulses.
+   var e=owner.physics_material_override.bounce if owner.physics_material_override else 0.0
+--- v4/scripts/traffic_body.gd
++++ pre-qa/scripts/traffic_body.gd
+@@ -136,4 +136,4 @@
+  signal_material.emission_energy_multiplier=2.5*(1-damage.state.lights) if fmod(time_s,tuning.signal_period_s)<tuning.signal_period_s*.5 else 0
+  damage.apply_visuals(visual)
+ func telemetry() -> Dictionary:
+- return {"time_s":time_s,"id":get_instance_id(),"mode":mode,"target_lane_m":target_lane,"indicator":signal_side,"mass_kg":mass,"position_m":[position.x,position.y,position.z],"velocity_mps":[linear_velocity.x,linear_velocity.y,linear_velocity.z],"angular_velocity_rad_s":[angular_velocity.x,angular_velocity.y,angular_velocity.z],"damage":damage.state,"grounded":grounded}
++ return {"time_s":time_s,"id":get_instance_id(),"mode":mode,"target_lane_m":target_lane,"indicator":signal_side,"mass_kg":mass,"position_m":[global_position.x,global_position.y,global_position.z],"velocity_mps":[linear_velocity.x,linear_velocity.y,linear_velocity.z],"angular_velocity_rad_s":[angular_velocity.x,angular_velocity.y,angular_velocity.z],"damage":damage.state,"grounded":grounded}

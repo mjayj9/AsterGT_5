@@ -1,0 +1,3 @@
+Godot Engine v4.6.3.stable.mono.official.7d41c59c4 - https://godotengine.org
+
+PREQA_CONTACT_REGRESSION {"cases":6,"max_damage_difference_percent":0.001464860110321,"max_energy_difference_percent":0.00146486011031744,"max_expected_error_percent":0.00146535183243527,"pass":true,"proposed_point_minus_offset_max_difference_percent":7309097.80245325}
