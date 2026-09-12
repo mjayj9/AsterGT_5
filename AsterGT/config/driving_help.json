@@ -1,0 +1,246 @@
+{
+  "categories": {
+    "start": {
+      "ko": "출발·정지",
+      "en": "Start and stop"
+    },
+    "gears": {
+      "ko": "변속기 · P/R/N/D · 1~6단",
+      "en": "Transmission · P/R/N/D · gears 1–6"
+    },
+    "aids": {
+      "ko": "ABS·운전 보조",
+      "en": "ABS and driving aids"
+    },
+    "tuning": {
+      "ko": "차량 튜닝·성능",
+      "en": "Tuning and performance"
+    },
+    "damage": {
+      "ko": "손상·수리·복구",
+      "en": "Damage, repair and recovery"
+    },
+    "view": {
+      "ko": "카메라·차량 기능",
+      "en": "Camera and vehicle controls"
+    }
+  },
+  "topics": [
+    {
+      "id": "launch",
+      "category": "start",
+      "title_ko": "차를 출발시키고 싶어요",
+      "title_en": "I want to start driving",
+      "body_ko": "1. 새 주행은 시동이 켜진 D·1단으로 시작합니다.\n2. {throttle}를 누르면 가속합니다. {left} / {right}로 방향을 바꿉니다.\n3. {brake}로 감속·정지합니다. 브레이크는 후진 키가 아닙니다.\n\n처음에는 자동 변속과 자동 클러치를 켜 두세요. 도움말을 닫으면 주행을 계속합니다.",
+      "body_en": "1. A new drive starts with the engine on, D selected and first gear engaged.\n2. Hold {throttle} to accelerate. Steer with {left} / {right}.\n3. Hold {brake} to slow or stop. The brake does not select reverse.\n\nStart with shift assist and auto clutch enabled. Close this panel to resume.",
+      "open": "setup"
+    },
+    {
+      "id": "stopped",
+      "category": "start",
+      "title_ko": "차가 움직이지 않아요",
+      "title_en": "The car will not move",
+      "body_ko": "1. 시동이 꺼져 있으면 {neutral}로 중립을 선택하고 {ignition}로 시동을 켭니다.\n2. 완전히 정차하고 {brake}를 누른 채 {neutral} → {drive} 순서로 선택합니다.\n3. 주차 잠금 P와 핸드브레이크 {handbrake}가 해제됐는지 확인합니다.\n4. 자동 클러치가 꺼져 있으면 {clutch}를 누르고 가속하면서 놓아야 합니다. 키보드에서는 서서히 결합하도록 처리됩니다.\n\n변속이 거절되면 화면에 표시되는 정차·브레이크·클러치 조건을 확인하세요.",
+      "body_en": "1. If the engine is off, select neutral with {neutral}, then press {ignition}.\n2. Stop fully. Hold {brake}, select {neutral}, then {drive}.\n3. Release parking lock P and the handbrake {handbrake}.\n4. With auto clutch off, hold {clutch}, apply throttle and release it. Keyboard clutch release is smoothed.\n\nRead any shift refusal message for the required brake, clutch or speed condition.",
+      "open": "setup"
+    },
+    {
+      "id": "stop",
+      "category": "start",
+      "title_ko": "멈추거나 일시정지하고 싶어요",
+      "title_en": "I want to stop or pause",
+      "body_ko": "주행 중 {brake}를 길게 눌러 정지합니다. 고속에서는 충분히 앞에서 제동하세요.\n\n{pause}는 주행을 일시정지합니다. {help}는 도움말을 열면서 주행을 멈춥니다. 도움말의 ‘닫고 주행 계속’으로 돌아갑니다.\n\n주차 잠금은 완전히 정차한 뒤 사용합니다.",
+      "body_en": "Hold {brake} to stop. Start braking early at high speed.\n\n{pause} pauses the drive. {help} opens this guide and pauses the car. Use Close and resume to return.\n\nUse parking lock only after stopping fully."
+    },
+    {
+      "id": "park",
+      "category": "gears",
+      "title_ko": "P · 주차 잠금",
+      "title_en": "P · Parking lock",
+      "body_ko": "1. 완전히 정차합니다.\n2. {brake}를 누른 채 {park}를 누릅니다.\n3. P는 동력을 끊고 차를 정차 상태로 잠급니다. 계기판의 선택 위치 P를 확인합니다.\n\n다시 출발: 브레이크를 누른 채 {drive}. 수동 클러치라면 {clutch}도 누릅니다. P는 실제 GT3의 장치가 아닌 게임용 정차 기능입니다.",
+      "body_en": "1. Stop fully.\n2. Hold {brake} and press {park}.\n3. P disconnects drive and applies the parking lock. Check P in the selector display.\n\nTo leave P, hold the brake and press {drive}. Hold {clutch} too if auto clutch is off. P is a game parking aid, not actual GT3 hardware."
+    },
+    {
+      "id": "reverse",
+      "category": "gears",
+      "title_ko": "R · 후진",
+      "title_en": "R · Reverse",
+      "body_ko": "1. 완전히 정차하고 {brake}를 누릅니다.\n2. {neutral}로 N을 선택한 뒤 변속이 끝날 때까지 기다립니다.\n3. {reverse}로 R을 선택합니다.\n4. 브레이크를 놓고 {throttle}로 천천히 후진합니다. {brake}로 멈춥니다.\n\n수동 클러치일 때는 선택하는 동안 {clutch}도 누르세요. 전진으로 돌아갈 때도 정차 → 브레이크 → N → D 순서입니다.",
+      "body_en": "1. Stop fully and hold {brake}.\n2. Press {neutral} for N and wait for the shift to finish.\n3. Press {reverse} for R.\n4. Release the brake and hold {throttle} gently to reverse. Stop with {brake}.\n\nHold {clutch} during selection if auto clutch is off. To go forward again: stop, brake, N, then D."
+    },
+    {
+      "id": "neutral",
+      "category": "gears",
+      "title_ko": "N · 중립",
+      "title_en": "N · Neutral",
+      "body_ko": "{neutral}를 누르면 동력이 분리됩니다. 중립에서는 가속해도 차를 구동하지 않습니다. 경사에서는 굴러갈 수 있으니 브레이크를 사용하세요.\n\n자동 클러치가 꺼져 있으면 {clutch}를 누른 채 선택합니다. N에서 전진·후진으로 바꾸려면 완전히 정차하고 {brake}를 누른 채 {drive} 또는 {reverse}를 선택합니다.",
+      "body_en": "Press {neutral} to disconnect the drivetrain. Throttle in N will not drive the wheels. The car may roll on a slope; use the brake.\n\nHold {clutch} to select N if auto clutch is off. To select forward or reverse from N, stop fully, hold {brake} and press {drive} or {reverse}."
+    },
+    {
+      "id": "drive",
+      "category": "gears",
+      "title_ko": "D · 전진 선택",
+      "title_en": "D · Forward drive",
+      "body_ko": "1. 완전히 정차하고 {brake}를 누릅니다.\n2. {neutral}로 N을 선택하고 변속이 끝나면 {drive}로 D를 선택합니다. P에서는 바로 D로 바꿀 수 있습니다.\n3. D를 선택하면 전진 1단에서 시작합니다.\n\nD는 전진 방향을 선택합니다. 자동으로 1~6단을 바꾸려면 자동 변속 보조 {transmission}도 켜야 합니다.",
+      "body_en": "1. Stop fully and hold {brake}.\n2. Select N with {neutral}, wait for the shift, then select D with {drive}. From P you may select D directly.\n3. D starts in first gear.\n\nD selects forward drive. Automatic changes through gears 1–6 require shift assist {transmission} to be on."
+    },
+    {
+      "id": "gear1",
+      "category": "gears",
+      "title_ko": "1단 · 발진·아주 낮은 속도",
+      "title_en": "Gear 1 · launch and very low speeds",
+      "body_ko": "D를 선택하면 1단입니다. 높은 단수에서 내려올 때는 충분히 감속한 뒤 {shift_down}로 한 단씩 내립니다.\n\n용도: 발진·아주 낮은 속도. 고정된 권장 속도는 없으며 회전수와 부하를 보고 선택합니다.\n수동으로 유지하려면 {transmission}로 자동 변속 보조를 끕니다. 자동 클러치가 꺼져 있으면 {clutch}를 누른 채 변속합니다.\n\n내리기: {shift_down}. 올리기: {shift_up}. 회전 한계를 넘는 다운시프트는 거절됩니다. 숫자 키는 전진 단수 직결 키가 아닙니다.",
+      "body_en": "Selecting D engages first gear. When coming down from a higher gear, slow down and press {shift_down} once per gear.\n\nUse: launch and very low speeds. Choose by RPM and load, not a fixed speed.\nTurn shift assist off with {transmission} to stay in manual control. With auto clutch off, hold {clutch} for the shift.\n\nDown: {shift_down}. Up: {shift_up}. Over-rev downshifts are refused. Number keys select P/R/N/D, not individual forward gears.",
+      "gear": 1,
+      "open": "performance"
+    },
+    {
+      "id": "gear2",
+      "category": "gears",
+      "title_ko": "2단 · 저속 탈출·초기 가속",
+      "title_en": "Gear 2 · low-speed exits and initial acceleration",
+      "body_ko": "1단에서 {shift_up}를 한 번 눌러 2단으로 올립니다. 각 변속이 끝난 뒤 다음 입력을 하세요.\n\n용도: 저속 탈출·초기 가속. 고정된 권장 속도는 없으며 회전수와 부하를 보고 선택합니다.\n수동으로 유지하려면 {transmission}로 자동 변속 보조를 끕니다. 자동 클러치가 꺼져 있으면 {clutch}를 누른 채 변속합니다.\n\n내리기: {shift_down}. 올리기: {shift_up}. 회전 한계를 넘는 다운시프트는 거절됩니다. 숫자 키는 전진 단수 직결 키가 아닙니다.",
+      "body_en": "From gear 1, press {shift_up} once to select gear 2. Wait for each shift to finish before requesting another.\n\nUse: low-speed exits and initial acceleration. Choose by RPM and load, not a fixed speed.\nTurn shift assist off with {transmission} to stay in manual control. With auto clutch off, hold {clutch} for the shift.\n\nDown: {shift_down}. Up: {shift_up}. Over-rev downshifts are refused. Number keys select P/R/N/D, not individual forward gears.",
+      "gear": 2,
+      "open": "performance"
+    },
+    {
+      "id": "gear3",
+      "category": "gears",
+      "title_ko": "3단 · 중속 가속",
+      "title_en": "Gear 3 · medium-speed acceleration",
+      "body_ko": "2단에서 {shift_up}를 한 번 눌러 3단으로 올립니다. 각 변속이 끝난 뒤 다음 입력을 하세요.\n\n용도: 중속 가속. 고정된 권장 속도는 없으며 회전수와 부하를 보고 선택합니다.\n수동으로 유지하려면 {transmission}로 자동 변속 보조를 끕니다. 자동 클러치가 꺼져 있으면 {clutch}를 누른 채 변속합니다.\n\n내리기: {shift_down}. 올리기: {shift_up}. 회전 한계를 넘는 다운시프트는 거절됩니다. 숫자 키는 전진 단수 직결 키가 아닙니다.",
+      "body_en": "From gear 2, press {shift_up} once to select gear 3. Wait for each shift to finish before requesting another.\n\nUse: medium-speed acceleration. Choose by RPM and load, not a fixed speed.\nTurn shift assist off with {transmission} to stay in manual control. With auto clutch off, hold {clutch} for the shift.\n\nDown: {shift_down}. Up: {shift_up}. Over-rev downshifts are refused. Number keys select P/R/N/D, not individual forward gears.",
+      "gear": 3,
+      "open": "performance"
+    },
+    {
+      "id": "gear4",
+      "category": "gears",
+      "title_ko": "4단 · 속도가 오른 구간의 가속",
+      "title_en": "Gear 4 · acceleration as road speed builds",
+      "body_ko": "3단에서 {shift_up}를 한 번 눌러 4단으로 올립니다. 각 변속이 끝난 뒤 다음 입력을 하세요.\n\n용도: 속도가 오른 구간의 가속. 고정된 권장 속도는 없으며 회전수와 부하를 보고 선택합니다.\n수동으로 유지하려면 {transmission}로 자동 변속 보조를 끕니다. 자동 클러치가 꺼져 있으면 {clutch}를 누른 채 변속합니다.\n\n내리기: {shift_down}. 올리기: {shift_up}. 회전 한계를 넘는 다운시프트는 거절됩니다. 숫자 키는 전진 단수 직결 키가 아닙니다.",
+      "body_en": "From gear 3, press {shift_up} once to select gear 4. Wait for each shift to finish before requesting another.\n\nUse: acceleration as road speed builds. Choose by RPM and load, not a fixed speed.\nTurn shift assist off with {transmission} to stay in manual control. With auto clutch off, hold {clutch} for the shift.\n\nDown: {shift_down}. Up: {shift_up}. Over-rev downshifts are refused. Number keys select P/R/N/D, not individual forward gears.",
+      "gear": 4,
+      "open": "performance"
+    },
+    {
+      "id": "gear5",
+      "category": "gears",
+      "title_ko": "5단 · 고속 주행",
+      "title_en": "Gear 5 · high-speed driving",
+      "body_ko": "4단에서 {shift_up}를 한 번 눌러 5단으로 올립니다. 각 변속이 끝난 뒤 다음 입력을 하세요.\n\n용도: 고속 주행. 고정된 권장 속도는 없으며 회전수와 부하를 보고 선택합니다.\n수동으로 유지하려면 {transmission}로 자동 변속 보조를 끕니다. 자동 클러치가 꺼져 있으면 {clutch}를 누른 채 변속합니다.\n\n내리기: {shift_down}. 올리기: {shift_up}. 회전 한계를 넘는 다운시프트는 거절됩니다. 숫자 키는 전진 단수 직결 키가 아닙니다.",
+      "body_en": "From gear 4, press {shift_up} once to select gear 5. Wait for each shift to finish before requesting another.\n\nUse: high-speed driving. Choose by RPM and load, not a fixed speed.\nTurn shift assist off with {transmission} to stay in manual control. With auto clutch off, hold {clutch} for the shift.\n\nDown: {shift_down}. Up: {shift_up}. Over-rev downshifts are refused. Number keys select P/R/N/D, not individual forward gears.",
+      "gear": 5,
+      "open": "performance"
+    },
+    {
+      "id": "gear6",
+      "category": "gears",
+      "title_ko": "6단 · 가장 높은 기어의 순항·최고속도 접근",
+      "title_en": "Gear 6 · top-gear cruising and approaching maximum speed",
+      "body_ko": "5단에서 {shift_up}를 한 번 눌러 6단으로 올립니다. 각 변속이 끝난 뒤 다음 입력을 하세요.\n\n용도: 가장 높은 기어의 순항·최고속도 접근. 고정된 권장 속도는 없으며 회전수와 부하를 보고 선택합니다.\n수동으로 유지하려면 {transmission}로 자동 변속 보조를 끕니다. 자동 클러치가 꺼져 있으면 {clutch}를 누른 채 변속합니다.\n\n내리기: {shift_down}. 올리기: {shift_up}. 회전 한계를 넘는 다운시프트는 거절됩니다. 숫자 키는 전진 단수 직결 키가 아닙니다.",
+      "body_en": "From gear 5, press {shift_up} once to select gear 6. Wait for each shift to finish before requesting another.\n\nUse: top-gear cruising and approaching maximum speed. Choose by RPM and load, not a fixed speed.\nTurn shift assist off with {transmission} to stay in manual control. With auto clutch off, hold {clutch} for the shift.\n\nDown: {shift_down}. Up: {shift_up}. Over-rev downshifts are refused. Number keys select P/R/N/D, not individual forward gears.",
+      "gear": 6,
+      "open": "performance"
+    },
+    {
+      "id": "manual",
+      "category": "gears",
+      "title_ko": "자동·수동 변속과 클러치",
+      "title_en": "Automatic/manual shifting and clutch",
+      "body_ko": "{transmission}: 자동 변속 보조 켜기·끄기. 동일한 6단 순차 변속기를 사용합니다.\n{shift_down} / {shift_up}: 한 단씩 내리기·올리기. 자동 보조 중에도 일시적으로 직접 변속할 수 있습니다.\n{assist}: 자동 클러치 켜기·끄기. 변속 보조와 별도입니다.\n{clutch}: 수동 클러치를 밟기. 자동 클러치가 꺼졌을 때 발진·변속·선택 위치 변경에 사용합니다.\n{rev_match}: 변속할 단수에 회전수를 맞추는 보조. 클러치 보조와 별도입니다.\n\n처음 수동 변속을 연습할 때는 자동 클러치를 유지하고 기어 변경부터 익히세요.",
+      "body_en": "{transmission}: toggle shift assist on the same six-speed sequential gearbox.\n{shift_down} / {shift_up}: shift one gear down/up; temporarily override automatic assistance.\n{assist}: toggle auto clutch independently of shift assist.\n{clutch}: hold the manual clutch for launch, shifts and selector changes when auto clutch is off.\n{rev_match}: match engine RPM to the next gear independently of clutch assistance.\n\nFor your first manual drive, leave auto clutch on and practise gear changes first.",
+      "open": "setup"
+    },
+    {
+      "id": "abs",
+      "category": "aids",
+      "title_ko": "ABS · 제동할 때 바퀴 잠김 줄이기",
+      "title_en": "ABS · Reduce wheel lock under braking",
+      "body_ko": "{abs}로 켜거나 끕니다. 급제동 때 바퀴가 잠기려 하면 제동력을 조절합니다.\n\n차량 설정의 ABS 개입 강도(0~1)가 클수록 보조를 강하게 적용합니다. 초보자는 켜 둔 채 기본값부터 사용하세요. 계기판 ABS 표시는 활성 상태와 실제 개입 상태를 구분합니다.",
+      "body_en": "Toggle with {abs}. ABS modulates braking when a wheel is about to lock.\n\nVehicle setup has ABS intervention from 0 to 1. Begin with ABS on at its default strength. The dashboard distinguishes enabled from actively intervening.",
+      "open": "setup"
+    },
+    {
+      "id": "tcs",
+      "category": "aids",
+      "title_ko": "TCS · 가속할 때 헛도는 바퀴 줄이기",
+      "title_en": "TCS · Reduce wheelspin under acceleration",
+      "body_ko": "{tcs}로 켜거나 끕니다. 구동 바퀴가 헛돌면 전달 토크를 줄입니다.\n\n빗길·코너 탈출에서 유용합니다. 차량 설정의 TCS 개입 강도(0~1)로 조절합니다. 보조가 있어도 급격한 가속은 피하세요.",
+      "body_en": "Toggle with {tcs}. TCS reduces delivered torque when driven wheels spin.\n\nUseful in rain and on corner exits. Adjust TCS intervention (0–1) in vehicle setup. Apply throttle progressively.",
+      "open": "setup"
+    },
+    {
+      "id": "esc",
+      "category": "aids",
+      "title_ko": "ESC · 차가 과하게 돌아가는 것 줄이기",
+      "title_en": "ESC · Stabilise excessive yaw",
+      "body_ko": "{esc}로 켜거나 끕니다. 차가 과도하게 돌아가는 것을 억제합니다.\n\n급격한 핸들 조작이나 과속을 모두 막아 주지는 않습니다. 차량 설정에서 개입 강도를 조절할 수 있습니다.",
+      "body_en": "Toggle with {esc}. ESC opposes excessive yaw.\n\nIt cannot compensate for every abrupt steering input or excessive speed. Adjust intervention strength in vehicle setup.",
+      "open": "setup"
+    },
+    {
+      "id": "profiles",
+      "category": "tuning",
+      "title_ko": "튜닝을 시작하고 싶어요",
+      "title_en": "I want to tune the car",
+      "body_ko": "{setup}로 차량 설정을 엽니다.\n\n• 실차 규정: 일부 성능 값을 규정 범위로 제한합니다.\n• 고속: 고속 주행용 기본 설정을 적용합니다.\n• 자유 튜닝: 질량·출력·구동 방식·각 단 기어비까지 조절합니다.\n\n설정은 일시정지 중 적용됩니다. 항목마다 단위와 기본값이 표시됩니다. 한 번에 한 항목을 조금씩 바꾸고 같은 구간에서 비교하세요. ‘설정 저장’으로 보관합니다.",
+      "body_en": "Open vehicle setup with {setup}.\n\n• Authentic BoP limits some performance values.\n• High Speed applies a high-speed preset.\n• Custom Sandbox unlocks mass, output, driven wheels and each gear ratio.\n\nChanges apply while paused. Controls show units and defaults. Change one setting at a time and compare on the same road. Use Save settings.",
+      "open": "setup"
+    },
+    {
+      "id": "gearing",
+      "category": "tuning",
+      "title_ko": "기어비·출력·최고속도를 알고 싶어요",
+      "title_en": "Gearing, power and top speed",
+      "body_ko": "{performance}에서 각 단의 계산상 속도와 엔진 성능을 봅니다.\n\n최종 감속비나 각 단 기어비를 높이면 같은 속도에서 회전수가 높아지고 구동 토크도 커집니다. 대신 해당 단의 회전 제한 속도는 낮아집니다.\n\n각 단 기어비는 자유 튜닝 모드에서 조절합니다. 표시 속도는 계산치이며 실측 기록이 아닙니다.",
+      "body_en": "Use {performance} to inspect per-gear speed limits and engine performance.\n\nA higher final drive or gear ratio raises RPM and wheel torque at a given speed, while reducing that gear’s limiter speed.\n\nIndividual ratios are adjustable in Custom Sandbox. Displayed estimates are calculated, not measured.",
+      "open": "performance"
+    },
+    {
+      "id": "chassis",
+      "category": "tuning",
+      "title_ko": "브레이크·서스펜션·윙·타이어",
+      "title_en": "Brakes, suspension, aero and tyres",
+      "body_ko": "• 브레이크: 최대 토크와 앞바퀴 제동 비율을 조절합니다.\n• 서스펜션: 스프링, 압축·복원 감쇠, 차고를 바꿉니다. 너무 낮은 차고는 노면 접촉을 늘립니다.\n• 윙·다운포스: 고속 접지와 공기 저항에 함께 영향을 줍니다.\n• 타이어: 온도·마모 시뮬레이션을 선택하고 정비 버튼으로 예열·교환합니다.\n\n각 슬라이더 위의 설명과 기본값을 기준으로 조금씩 비교하세요.",
+      "body_en": "• Brakes: adjust maximum torque and front brake proportion.\n• Suspension: springs, compression/rebound damping and ride height. Too little clearance increases ground contact.\n• Wing/downforce: affect both high-speed grip and drag.\n• Tyres: toggle temperature/wear simulation; service to warm and replace tyres.\n\nUse each setting’s explanation and default as a reference.",
+      "open": "setup"
+    },
+    {
+      "id": "damage",
+      "category": "damage",
+      "title_ko": "긁힘·칠 까짐·찌그러짐·크랙",
+      "title_en": "Scuffs, chips, dents and cracks",
+      "body_ko": "• 긁힘: 접촉 중 옆으로 쓸린 방향을 따라 생기는 길고 거친 자국입니다. 잔기스는 구현하지 않습니다.\n• 칠 까짐: 도장이 벗겨져 아래 재질이 드러나는 불규칙한 자국입니다.\n• 찌그러짐: 충돌점 주변 외장이 안쪽으로 눌립니다. 충격이 커질수록 범위와 깊이가 커지지만 한 부위 전체를 일괄 변형하지 않습니다.\n• 크랙: 강한 충격을 받은 범퍼의 플라스틱·복합재 표면에 갈라짐이 생깁니다.\n\n아래 버튼으로 모든 외장 손상과 손상에 따른 기능 저하를 복구합니다.",
+      "body_en": "• Scuffs: coarse elongated marks along the sliding contact direction. Microscopic scratches are omitted.\n• Chips: irregular paint loss exposes the underlying material.\n• Dents: the skin near the contact point moves inward; size and depth increase with impact severity.\n• Cracks: severe impacts fracture the plastic/composite bumper surface.\n\nUse the button below to restore exterior damage and damage-related performance loss.",
+      "open": "repair"
+    },
+    {
+      "id": "recover",
+      "category": "damage",
+      "title_ko": "전복·도로 이탈에서 돌아오기",
+      "title_en": "Recover after a rollover or leaving the road",
+      "body_ko": "{recover}로 빈 도로 위치에 차량을 복구합니다. 위치 복구와 외장 수리는 별도입니다.\n\n외장을 원래대로 돌리려면 일시정지 메뉴 또는 이 도움말의 ‘차량 손상 복구’를 누르세요.",
+      "body_en": "Press {recover} to return to a clear road position. Position recovery and body repair are separate.\n\nUse Repair vehicle damage in the pause menu or this guide to restore the body.",
+      "open": "repair"
+    },
+    {
+      "id": "camera",
+      "category": "view",
+      "title_ko": "카메라를 바꾸거나 뒤를 보고 싶어요",
+      "title_en": "Change camera or look behind",
+      "body_ko": "{camera}로 추적·범퍼·후드·조종석·자유 회전 시점을 순환합니다. {look_back}를 누르는 동안 뒤를 봅니다.\n\n자유 회전 시점: 마우스 오른쪽 버튼을 누르고 드래그하여 회전, 휠로 확대·축소합니다. 카메라 설정에서 시야각·위치·흔들림·멀미 감소를 조절할 수 있습니다.",
+      "body_en": "Use {camera} to cycle chase, bumper, hood, cockpit and orbit. Hold {look_back} to look behind.\n\nIn orbit, right-drag to rotate and use the wheel to zoom. Camera settings adjust field of view, position, shake and reduced motion.",
+      "open": "camera"
+    },
+    {
+      "id": "signals",
+      "category": "view",
+      "title_ko": "조명·방향지시등·경적·날씨",
+      "title_en": "Lights, signals, horn and weather",
+      "body_ko": "{lights}: 전조등 · {highbeam}: 상향등\n{left_signal} / {right_signal}: 좌·우 방향지시등\n{hazards}: 비상등 · {horn}: 누르는 동안 경적\n{weather}: 맑음·흐림·비 · {time}: 낮·노을·밤\n\n비가 오면 노면 마찰도 바뀝니다. 밤에는 전조등을 사용하세요.",
+      "body_en": "{lights}: headlights · {highbeam}: high beams\n{left_signal} / {right_signal}: left/right indicator\n{hazards}: hazards · hold {horn}: horn\n{weather}: clear/overcast/rain · {time}: day/sunset/night\n\nRain changes road friction. Use headlights at night."
+    }
+  ]
+}
