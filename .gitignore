@@ -5,9 +5,12 @@
 # Godot export output
 build/
 export/
-*.exe
 *.pck
 *.zip
+
+# Exported game binaries, but keep the checked-in build helper
+*.exe
+!AsterGT/runtime_tools/AtomicReplace.exe
 
 # Blender auto-backups
 *.blend1
