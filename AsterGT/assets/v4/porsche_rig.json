@@ -1,0 +1,74 @@
+{
+  "schema_version": 4,
+  "source": {
+    "extras": {
+      "author": "MattDoesBlender (https://sketchfab.com/MattDoesBlender)",
+      "license": "CC-BY-NC-SA-4.0 (http://creativecommons.org/licenses/by-nc-sa/4.0/)",
+      "source": "https://sketchfab.com/3d-models/porsche-992-gt3-r-03ea07f7972648aa9350853b2a1a942a",
+      "title": "porsche_992_gt3_r"
+    },
+    "generator": "Sketchfab-16.72.0",
+    "version": "2.0"
+  },
+  "length_m": 4.619,
+  "width_m": 2.049064,
+  "wheelbase": 2.507,
+  "centers": {
+    "LF": [
+      -0.8410000205039978,
+      -0.33000001311302185,
+      -1.253499984741211
+    ],
+    "RF": [
+      0.8410000205039978,
+      -0.33000001311302185,
+      -1.253499984741211
+    ],
+    "LR": [
+      -0.8339999914169312,
+      -0.3149999976158142,
+      1.253499984741211
+    ],
+    "RR": [
+      0.8339999914169312,
+      -0.3149999976158142,
+      1.253499984741211
+    ]
+  },
+  "radii": {
+    "LF": 0.34,
+    "RF": 0.34,
+    "LR": 0.355,
+    "RR": 0.355
+  },
+  "axes": {
+    "blender_forward": "+Y",
+    "blender_up": "+Z",
+    "godot_forward": "-Z",
+    "godot_up": "+Y"
+  },
+  "origin": "axle midpoint; origin 0.67m above tire ground",
+  "mounts": {
+    "LF": [
+      -0.8410000205039978,
+      0.06557169741329394,
+      -1.253499984741211
+    ],
+    "RF": [
+      0.8410000205039978,
+      0.06557169741329394,
+      -1.253499984741211
+    ],
+    "LR": [
+      -0.8339999914169312,
+      0.08057171291050158,
+      1.253499984741211
+    ],
+    "RR": [
+      0.8339999914169312,
+      0.08057171291050158,
+      1.253499984741211
+    ]
+  },
+  "suspension_reference": "Fixed hardpoints calibrated at 1265kg, 57000N/m per wheel, rest 0.45m; tire/wheel radii remain independent."
+}
