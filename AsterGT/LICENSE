@@ -1,0 +1,26 @@
+ASTER GT v4 — license and attribution index
+
+This file does not relicense pre-existing assets or source code.
+
+Porsche 992 GT3 R:
+Author: MattDoesBlender (https://sketchfab.com/MattDoesBlender)
+Source: https://sketchfab.com/3d-models/porsche-992-gt3-r-03ea07f7972648aa9350853b2a1a942a
+License: Creative Commons Attribution–NonCommercial–ShareAlike 4.0 International.
+https://creativecommons.org/licenses/by-nc-sa/4.0/
+https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode
+
+The original vehicle, derived Porsche GLBs, textures, damage shapes and editable
+Porsche .blend are subject to these attribution, noncommercial and share-alike
+requirements. Preserve credit, source, license and modification notices.
+See licenses/PORSCHE_MODEL.md and BLENDER_MCP_LOG.md for v3 and v4 modifications.
+Porsche names and marks are not an endorsement of this project.
+
+Godot Engine: MIT. Full notice: licenses/GODOT_LICENSE.txt.
+Godot bundled third-party notices: licenses/GODOT_THIRD_PARTY.txt.
+Other source and generated asset provenance: licenses/ASSET_SOURCES.md.
+Existing notices in the copied project remain in effect. No blanket MIT or
+commercial-use license is asserted over the Porsche vehicle.
+
+v4 new traffic GLBs are independently generated geometry using simple PBR
+materials, not Porsche model derivatives. The v4 sound additions derive from
+the project's generated audio or new synthesis, not real vehicle recordings.
