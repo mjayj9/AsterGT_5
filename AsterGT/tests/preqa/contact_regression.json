@@ -1,0 +1,644 @@
+{
+  "backend": "GodotPhysics3D",
+  "case_count": 6,
+  "engine": "4.6.3-stable (official)",
+  "max_damage_difference_percent": 0.001464860110321,
+  "max_energy_difference_percent": 0.00146486011031744,
+  "max_expected_error_percent": 0.00146535183243527,
+  "method": "same contact replay through production sample; native COM probe stored separately",
+  "pass": true,
+  "proposed_point_minus_offset_max_difference_percent": 7309097.80245325,
+  "results": [
+    {
+      "angle_rad": 0.0,
+      "damage_difference_percent": 0.000507441439246428,
+      "energy_difference_percent": 0.000507441439244211,
+      "expected_error_percent": 0.000506744549970585,
+      "expected_normal_energy_j": 970.207130215184,
+      "impulse_ns": 1000.0,
+      "passed": true,
+      "same_zone_and_impact_stage": true,
+      "samples": [
+        {
+          "damage": {
+            "body": 0.00646804748969299,
+            "front": 0.0161701187242325,
+            "left": 0.0,
+            "lights": 0.0161701187242325,
+            "power": 0.00565954155348137,
+            "rear": 0.0,
+            "right": 0.0,
+            "steering": 0.0
+          },
+          "energy_j": 970.207123453949,
+          "impacted": true,
+          "mass_kg": [
+            1265.0,
+            1580.0
+          ],
+          "normal_world": [
+            0.242535635828972,
+            0.0,
+            0.970142543315887
+          ],
+          "origin_m": [
+            8.0,
+            8.0,
+            8.0
+          ],
+          "other_inverse_inertia": "[X: (0.000889, 0.0, 0.000077), Y: (0.0, 0.00037, 0.0), Z: (0.000077, 0.0, 0.000608)]",
+          "point_world_m": [
+            8.75,
+            7.875,
+            6.0
+          ],
+          "proposed_point_minus_offset_energy_j": 68984.6109165411,
+          "velocity_a_mps": [
+            4.0,
+            0.0,
+            -25.0
+          ],
+          "velocity_b_mps": [
+            0.0,
+            0.0,
+            3.0
+          ],
+          "zone": "front"
+        },
+        {
+          "damage": {
+            "body": 0.00646808031124627,
+            "front": 0.0161702007781157,
+            "left": 0.0,
+            "lights": 0.0161702007781157,
+            "power": 0.00565957027234048,
+            "rear": 0.0,
+            "right": 0.0,
+            "steering": 0.0
+          },
+          "energy_j": 970.21204668694,
+          "impacted": true,
+          "mass_kg": [
+            1265.0,
+            1580.0
+          ],
+          "normal_world": [
+            0.242535635828972,
+            0.0,
+            0.970142543315887
+          ],
+          "origin_m": [
+            4104.0,
+            8.0,
+            -2040.0
+          ],
+          "other_inverse_inertia": "[X: (0.000889, 0.0, 0.000077), Y: (0.0, 0.00037, 0.0), Z: (0.000077, 0.0, 0.000608)]",
+          "point_world_m": [
+            4104.75,
+            7.875,
+            -2042.0
+          ],
+          "proposed_point_minus_offset_energy_j": 4785119694.24687,
+          "velocity_a_mps": [
+            4.0,
+            0.0,
+            -25.0
+          ],
+          "velocity_b_mps": [
+            0.0,
+            0.0,
+            3.0
+          ],
+          "zone": "front"
+        }
+      ]
+    },
+    {
+      "angle_rad": 0.0,
+      "damage_difference_percent": 0.000507441439246428,
+      "energy_difference_percent": 0.000507441439244211,
+      "expected_error_percent": 0.000506744549970585,
+      "expected_normal_energy_j": 15523.3140834429,
+      "impulse_ns": 4000.0,
+      "passed": true,
+      "same_zone_and_impact_stage": true,
+      "samples": [
+        {
+          "damage": {
+            "body": 0.103488759835088,
+            "front": 0.25872189958772,
+            "left": 0.0,
+            "lights": 0.25872189958772,
+            "power": 0.0905526648557019,
+            "rear": 0.0,
+            "right": 0.0,
+            "steering": 0.0
+          },
+          "energy_j": 15523.3139752632,
+          "impacted": true,
+          "mass_kg": [
+            1265.0,
+            1580.0
+          ],
+          "normal_world": [
+            0.242535635828972,
+            0.0,
+            0.970142543315887
+          ],
+          "origin_m": [
+            8.0,
+            8.0,
+            8.0
+          ],
+          "other_inverse_inertia": "[X: (0.000889, 0.0, 0.000077), Y: (0.0, 0.00037, 0.0), Z: (0.000077, 0.0, 0.000608)]",
+          "point_world_m": [
+            8.75,
+            7.875,
+            6.0
+          ],
+          "proposed_point_minus_offset_energy_j": 1103753.77466466,
+          "velocity_a_mps": [
+            4.0,
+            0.0,
+            -25.0
+          ],
+          "velocity_b_mps": [
+            0.0,
+            0.0,
+            3.0
+          ],
+          "zone": "front"
+        },
+        {
+          "damage": {
+            "body": 0.10348928497994,
+            "front": 0.258723212449851,
+            "left": 0.0,
+            "lights": 0.258723212449851,
+            "power": 0.0905531243574477,
+            "rear": 0.0,
+            "right": 0.0,
+            "steering": 0.0
+          },
+          "energy_j": 15523.392746991,
+          "impacted": true,
+          "mass_kg": [
+            1265.0,
+            1580.0
+          ],
+          "normal_world": [
+            0.242535635828972,
+            0.0,
+            0.970142543315887
+          ],
+          "origin_m": [
+            4104.0,
+            8.0,
+            -2040.0
+          ],
+          "other_inverse_inertia": "[X: (0.000889, 0.0, 0.000077), Y: (0.0, 0.00037, 0.0), Z: (0.000077, 0.0, 0.000608)]",
+          "point_world_m": [
+            4104.75,
+            7.875,
+            -2042.0
+          ],
+          "proposed_point_minus_offset_energy_j": 76561915107.9499,
+          "velocity_a_mps": [
+            4.0,
+            0.0,
+            -25.0
+          ],
+          "velocity_b_mps": [
+            0.0,
+            0.0,
+            3.0
+          ],
+          "zone": "front"
+        }
+      ]
+    },
+    {
+      "angle_rad": 0.0,
+      "damage_difference_percent": 0.0,
+      "energy_difference_percent": 0.000507441439244211,
+      "expected_error_percent": 0.000506744549970585,
+      "expected_normal_energy_j": 62093.2563337718,
+      "impulse_ns": 8000.0,
+      "passed": true,
+      "same_zone_and_impact_stage": true,
+      "samples": [
+        {
+          "damage": {
+            "body": 0.4,
+            "front": 1.0,
+            "left": 0.0,
+            "lights": 1.0,
+            "power": 0.35,
+            "rear": 0.0,
+            "right": 0.0,
+            "steering": 0.0
+          },
+          "energy_j": 62093.2559010527,
+          "impacted": true,
+          "mass_kg": [
+            1265.0,
+            1580.0
+          ],
+          "normal_world": [
+            0.242535635828972,
+            0.0,
+            0.970142543315887
+          ],
+          "origin_m": [
+            8.0,
+            8.0,
+            8.0
+          ],
+          "other_inverse_inertia": "[X: (0.000889, 0.0, 0.000077), Y: (0.0, 0.00037, 0.0), Z: (0.000077, 0.0, 0.000608)]",
+          "point_world_m": [
+            8.75,
+            7.875,
+            6.0
+          ],
+          "proposed_point_minus_offset_energy_j": 4415015.09865863,
+          "velocity_a_mps": [
+            4.0,
+            0.0,
+            -25.0
+          ],
+          "velocity_b_mps": [
+            0.0,
+            0.0,
+            3.0
+          ],
+          "zone": "front"
+        },
+        {
+          "damage": {
+            "body": 0.4,
+            "front": 1.0,
+            "left": 0.0,
+            "lights": 1.0,
+            "power": 0.35,
+            "rear": 0.0,
+            "right": 0.0,
+            "steering": 0.0
+          },
+          "energy_j": 62093.5709879642,
+          "impacted": true,
+          "mass_kg": [
+            1265.0,
+            1580.0
+          ],
+          "normal_world": [
+            0.242535635828972,
+            0.0,
+            0.970142543315887
+          ],
+          "origin_m": [
+            4104.0,
+            8.0,
+            -2040.0
+          ],
+          "other_inverse_inertia": "[X: (0.000889, 0.0, 0.000077), Y: (0.0, 0.00037, 0.0), Z: (0.000077, 0.0, 0.000608)]",
+          "point_world_m": [
+            4104.75,
+            7.875,
+            -2042.0
+          ],
+          "proposed_point_minus_offset_energy_j": 306247660431.8,
+          "velocity_a_mps": [
+            4.0,
+            0.0,
+            -25.0
+          ],
+          "velocity_b_mps": [
+            0.0,
+            0.0,
+            3.0
+          ],
+          "zone": "front"
+        }
+      ]
+    },
+    {
+      "angle_rad": 0.625,
+      "damage_difference_percent": 0.001464860110321,
+      "energy_difference_percent": 0.00146486011031744,
+      "expected_error_percent": 0.00146535183243527,
+      "expected_normal_energy_j": 1374.99126823181,
+      "impulse_ns": 1000.0,
+      "passed": true,
+      "same_zone_and_impact_stage": true,
+      "samples": [
+        {
+          "damage": {
+            "body": 0.00916660840980382,
+            "front": 0.0229165210245096,
+            "left": 0.0,
+            "lights": 0.0229165210245096,
+            "power": 0.00802078235857834,
+            "rear": 0.0,
+            "right": 0.0,
+            "steering": 0.0
+          },
+          "energy_j": 1374.99126147057,
+          "impacted": true,
+          "mass_kg": [
+            1265.0,
+            1580.0
+          ],
+          "normal_world": [
+            0.764315187931061,
+            0.0,
+            0.644842863082886
+          ],
+          "origin_m": [
+            8.0,
+            8.0,
+            8.0
+          ],
+          "other_inverse_inertia": "[X: (0.000866, 0.0, -0.000109), Y: (0.0, 0.00037, 0.0), Z: (-0.000109, 0.0, 0.000631)]",
+          "point_world_m": [
+            7.43802785873413,
+            7.875,
+            5.93925094604492
+          ],
+          "proposed_point_minus_offset_energy_j": 57793.0613878019,
+          "velocity_a_mps": [
+            4.0,
+            0.0,
+            -25.0
+          ],
+          "velocity_b_mps": [
+            0.0,
+            0.0,
+            3.0
+          ],
+          "zone": "front"
+        },
+        {
+          "damage": {
+            "body": 0.00916647413181376,
+            "front": 0.0229161853295344,
+            "left": 0.0,
+            "lights": 0.0229161853295344,
+            "power": 0.00802066486533704,
+            "rear": 0.0,
+            "right": 0.0,
+            "steering": 0.0
+          },
+          "energy_j": 1374.97111977206,
+          "impacted": true,
+          "mass_kg": [
+            1265.0,
+            1580.0
+          ],
+          "normal_world": [
+            0.764315187931061,
+            0.0,
+            0.644842863082886
+          ],
+          "origin_m": [
+            4104.0,
+            8.0,
+            -2040.0
+          ],
+          "other_inverse_inertia": "[X: (0.000866, 0.0, -0.000109), Y: (0.0, 0.00037, 0.0), Z: (-0.000109, 0.0, 0.000631)]",
+          "point_world_m": [
+            4103.43798828125,
+            7.875,
+            -2042.06079101563
+          ],
+          "proposed_point_minus_offset_energy_j": 4224209172.92768,
+          "velocity_a_mps": [
+            4.0,
+            0.0,
+            -25.0
+          ],
+          "velocity_b_mps": [
+            0.0,
+            0.0,
+            3.0
+          ],
+          "zone": "front"
+        }
+      ]
+    },
+    {
+      "angle_rad": 0.625,
+      "damage_difference_percent": 0.001464860110321,
+      "energy_difference_percent": 0.00146486011031744,
+      "expected_error_percent": 0.00146535183243527,
+      "expected_normal_energy_j": 21999.8602917089,
+      "impulse_ns": 4000.0,
+      "passed": true,
+      "same_zone_and_impact_stage": true,
+      "samples": [
+        {
+          "damage": {
+            "body": 0.146665734556861,
+            "front": 0.366664336392153,
+            "left": 0.0,
+            "lights": 0.366664336392153,
+            "power": 0.128332517737254,
+            "rear": 0.0,
+            "right": 0.0,
+            "steering": 0.0
+          },
+          "energy_j": 21999.8601835292,
+          "impacted": true,
+          "mass_kg": [
+            1265.0,
+            1580.0
+          ],
+          "normal_world": [
+            0.764315187931061,
+            0.0,
+            0.644842863082886
+          ],
+          "origin_m": [
+            8.0,
+            8.0,
+            8.0
+          ],
+          "other_inverse_inertia": "[X: (0.000866, 0.0, -0.000109), Y: (0.0, 0.00037, 0.0), Z: (-0.000109, 0.0, 0.000631)]",
+          "point_world_m": [
+            7.43802785873413,
+            7.875,
+            5.93925094604492
+          ],
+          "proposed_point_minus_offset_energy_j": 924688.982204831,
+          "velocity_a_mps": [
+            4.0,
+            0.0,
+            -25.0
+          ],
+          "velocity_b_mps": [
+            0.0,
+            0.0,
+            3.0
+          ],
+          "zone": "front"
+        },
+        {
+          "damage": {
+            "body": 0.14666358610902,
+            "front": 0.36665896527255,
+            "left": 0.0,
+            "lights": 0.36665896527255,
+            "power": 0.128330637845393,
+            "rear": 0.0,
+            "right": 0.0,
+            "steering": 0.0
+          },
+          "energy_j": 21999.537916353,
+          "impacted": true,
+          "mass_kg": [
+            1265.0,
+            1580.0
+          ],
+          "normal_world": [
+            0.764315187931061,
+            0.0,
+            0.644842863082886
+          ],
+          "origin_m": [
+            4104.0,
+            8.0,
+            -2040.0
+          ],
+          "other_inverse_inertia": "[X: (0.000866, 0.0, -0.000109), Y: (0.0, 0.00037, 0.0), Z: (-0.000109, 0.0, 0.000631)]",
+          "point_world_m": [
+            4103.43798828125,
+            7.875,
+            -2042.06079101563
+          ],
+          "proposed_point_minus_offset_energy_j": 67587346766.8428,
+          "velocity_a_mps": [
+            4.0,
+            0.0,
+            -25.0
+          ],
+          "velocity_b_mps": [
+            0.0,
+            0.0,
+            3.0
+          ],
+          "zone": "front"
+        }
+      ]
+    },
+    {
+      "angle_rad": 0.625,
+      "damage_difference_percent": 0.0,
+      "energy_difference_percent": 0.00146486011031744,
+      "expected_error_percent": 0.00146535183243527,
+      "expected_normal_energy_j": 87999.4411668358,
+      "impulse_ns": 8000.0,
+      "passed": true,
+      "same_zone_and_impact_stage": true,
+      "samples": [
+        {
+          "damage": {
+            "body": 0.4,
+            "front": 1.0,
+            "left": 0.0,
+            "lights": 1.0,
+            "power": 0.35,
+            "rear": 0.0,
+            "right": 0.0,
+            "steering": 0.0
+          },
+          "energy_j": 87999.4407341167,
+          "impacted": true,
+          "mass_kg": [
+            1265.0,
+            1580.0
+          ],
+          "normal_world": [
+            0.764315187931061,
+            0.0,
+            0.644842863082886
+          ],
+          "origin_m": [
+            8.0,
+            8.0,
+            8.0
+          ],
+          "other_inverse_inertia": "[X: (0.000866, 0.0, -0.000109), Y: (0.0, 0.00037, 0.0), Z: (-0.000109, 0.0, 0.000631)]",
+          "point_world_m": [
+            7.43802785873413,
+            7.875,
+            5.93925094604492
+          ],
+          "proposed_point_minus_offset_energy_j": 3698755.92881932,
+          "velocity_a_mps": [
+            4.0,
+            0.0,
+            -25.0
+          ],
+          "velocity_b_mps": [
+            0.0,
+            0.0,
+            3.0
+          ],
+          "zone": "front"
+        },
+        {
+          "damage": {
+            "body": 0.4,
+            "front": 1.0,
+            "left": 0.0,
+            "lights": 1.0,
+            "power": 0.35,
+            "rear": 0.0,
+            "right": 0.0,
+            "steering": 0.0
+          },
+          "energy_j": 87998.1516654121,
+          "impacted": true,
+          "mass_kg": [
+            1265.0,
+            1580.0
+          ],
+          "normal_world": [
+            0.764315187931061,
+            0.0,
+            0.644842863082886
+          ],
+          "origin_m": [
+            4104.0,
+            8.0,
+            -2040.0
+          ],
+          "other_inverse_inertia": "[X: (0.000866, 0.0, -0.000109), Y: (0.0, 0.00037, 0.0), Z: (-0.000109, 0.0, 0.000631)]",
+          "point_world_m": [
+            4103.43798828125,
+            7.875,
+            -2042.06079101563
+          ],
+          "proposed_point_minus_offset_energy_j": 270349387067.371,
+          "velocity_a_mps": [
+            4.0,
+            0.0,
+            -25.0
+          ],
+          "velocity_b_mps": [
+            0.0,
+            0.0,
+            3.0
+          ],
+          "zone": "front"
+        }
+      ]
+    }
+  ],
+  "scope": "Pre-QA blocker coordinate regression only; not final QA",
+  "translation_length_m": 4579.46728515625,
+  "translation_m": [
+    4096.0,
+    0.0,
+    -2048.0
+  ]
+}
