@@ -1,0 +1,31 @@
+{
+  "at_utc": "2026-09-12T13:26:27.153181+00:00",
+  "v5": {
+    "path": "C:\\Users\\admin\\Documents\\Codex\\2026-09-08\\fable-5-1-vs-fable-at-5\\outputs\\Windows-v5\\AsterGT-v5.exe",
+    "bytes": 198920856,
+    "sha256": "b02a101ece4f5b73d40449ffa47faed67704628e37fae2c85b05de90107596f5"
+  },
+  "smoke": [
+    {
+      "renderer": "headless",
+      "exit": 0,
+      "ready": true,
+      "errors": []
+    },
+    {
+      "renderer": "vulkan",
+      "exit": 0,
+      "ready": true,
+      "errors": []
+    }
+  ],
+  "original_candidate": {
+    "files": 5060,
+    "changed_or_missing": [],
+    "added": [],
+    "exe_sha256": "f531155b603527d45c200fe85ae866ec16f37cfae377e2461410f5b2824edd76",
+    "exe_bytes": 198878520
+  },
+  "original_v4_preferences_changed": [],
+  "status": "PASS"
+}
