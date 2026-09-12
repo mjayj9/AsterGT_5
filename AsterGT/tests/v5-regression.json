@@ -1,0 +1,12 @@
+{
+  "apply_ms": 31.975,
+  "changed_vertices": 2963,
+  "contact_point": "(-0.764893, -0.184877, 2.050853)",
+  "failures": [],
+  "max_displacement_m": 0.137018203735352,
+  "opposite_side": 0,
+  "outside_radius": 0,
+  "selected_mesh": "Exterior_EXT_Carpaint_Inst",
+  "status": "PASS",
+  "topics": 24
+}
