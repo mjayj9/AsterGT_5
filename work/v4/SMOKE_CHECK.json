@@ -1,0 +1,38 @@
+{
+  "scope": "syntax/import/export/minimal startup and orderly shutdown ONLY",
+  "final_qa_performed": false,
+  "performance_tests_performed": false,
+  "collision_tests_performed": false,
+  "demo_video_created": false,
+  "steps": [
+    {
+      "step": "import",
+      "return_code": 0,
+      "duration_s": 2.986,
+      "errors": [],
+      "log": "C:\\Users\\admin\\Documents\\Codex\\2026-09-08\\fable-5-1-vs-fable-at-4\\work\\v4\\smoke_import.log",
+      "startup_marker": null
+    },
+    {
+      "step": "export",
+      "return_code": 0,
+      "duration_s": 3.522,
+      "errors": [],
+      "log": "C:\\Users\\admin\\Documents\\Codex\\2026-09-08\\fable-5-1-vs-fable-at-4\\work\\v4\\smoke_export.log",
+      "startup_marker": null
+    },
+    {
+      "step": "executable_startup",
+      "return_code": 0,
+      "duration_s": 1.157,
+      "errors": [],
+      "log": "C:\\Users\\admin\\Documents\\Codex\\2026-09-08\\fable-5-1-vs-fable-at-4\\work\\v4\\smoke_executable_startup.log",
+      "startup_marker": true
+    }
+  ],
+  "executable": {
+    "path": "C:\\Users\\admin\\Documents\\Codex\\2026-09-08\\fable-5-1-vs-fable-at-4\\outputs\\Windows-v4\\AsterGT-v4.exe",
+    "bytes": 198878456,
+    "sha256": "70d4081b53e90f3427483bb1d23039e8ed17ddd93083c3a4d9a1dd43457852a8"
+  }
+}

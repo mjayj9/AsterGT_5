@@ -1,0 +1,6 @@
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+ROAD_LENGTH_M=26037.60546875
+ASTER_READY  route_km=26.03760546875  vehicle=Porsche 992 GT3 R
+WARNING: ObjectDB instances leaked at exit (run with --verbose for details).
+   at: cleanup (core/object/object.cpp:2663)

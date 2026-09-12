@@ -1,0 +1,99 @@
+Godot Engine v4.6.3.stable.mono.official.7d41c59c4 - https://godotengine.org
+
+[   0% ] [90m[1mfirst_scan_filesystem[22m | Started 프로젝트 초기화 (5 steps)[39m[0m
+[   0% ] [90m[1mfirst_scan_filesystem[22m | 파일 구조 스캔 중...[39m[0m
+[  16% ] [90m[1mfirst_scan_filesystem[22m | 전역 클래스 이름을 불러오는 중...[39m[0m
+[  33% ] [90m[1mfirst_scan_filesystem[22m | GDExtensions 검증 중...[39m[0m
+[  50% ] [90m[1mfirst_scan_filesystem[22m | 오토로드 스크립트를 만드는 중...[39m[0m
+[  66% ] [90m[1mfirst_scan_filesystem[22m | 플러그인을 초기화 중...[39m[0m
+[  83% ] [90m[1mfirst_scan_filesystem[22m | 파일 스캔 시작 중...[39m[0m
+[92m[ DONE ][39m [1mfirst_scan_filesystem[22m
+[0m
+[   0% ] [90m[1mupdate_scripts_classes[22m | Started 전역 클래스를 등록하는 중... (14 steps)[39m[0m
+[   0% ] [90m[1mupdate_scripts_classes[22m | GTCameraRig[39m[0m
+[   6% ] [90m[1mupdate_scripts_classes[22m | GTCar[39m[0m
+[  13% ] [90m[1mupdate_scripts_classes[22m | GTAudio[39m[0m
+[  20% ] [90m[1mupdate_scripts_classes[22m | GTContactDamage[39m[0m
+[  26% ] [90m[1mupdate_scripts_classes[22m | GTControls[39m[0m
+[  33% ] [90m[1mupdate_scripts_classes[22m | GTV4Hud[39m[0m
+[  40% ] [90m[1mupdate_scripts_classes[22m | GTHud[39m[0m
+[  46% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  53% ] [90m[1mupdate_scripts_classes[22m | GTQA[39m[0m
+[  60% ] [90m[1mupdate_scripts_classes[22m | GTSafeStore[39m[0m
+[  66% ] [90m[1mupdate_scripts_classes[22m | GTTraffic[39m[0m
+[  73% ] [90m[1mupdate_scripts_classes[22m | GTTrafficBody[39m[0m
+[  80% ] [90m[1mupdate_scripts_classes[22m | VehicleConfig[39m[0m
+[  86% ] [90m[1mupdate_scripts_classes[22m | GTWorld[39m[0m
+[92m[ DONE ][39m [1mupdate_scripts_classes[22m
+[0m
+[   0% ] [90m[1m_update_scan_actions[22m | Started 액션 스캔 중... (8 steps)[39m[0m
+[   0% ] [90m[1m_update_scan_actions[22m | engine_9250_off.wav[39m[0m
+[  11% ] [90m[1m_update_scan_actions[22m | engine_9250_on.wav[39m[0m
+[  22% ] [90m[1m_update_scan_actions[22m | porsche_lod0.glb[39m[0m
+[  33% ] [90m[1m_update_scan_actions[22m | porsche_lod1.glb[39m[0m
+[  44% ] [90m[1m_update_scan_actions[22m | porsche_lod2.glb[39m[0m
+[  55% ] [90m[1m_update_scan_actions[22m | porsche_lod3.glb[39m[0m
+[  66% ] [90m[1m_update_scan_actions[22m | traffic_lod0.glb[39m[0m
+[  77% ] [90m[1m_update_scan_actions[22m | whine.wav[39m[0m
+[92m[ DONE ][39m [1m_update_scan_actions[22m
+[0m
+[   0% ] [90m[1mreimport[22m | Started 애셋 (다시) 가져오는 중 (8 steps)[39m[0m
+[   0% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  11% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  22% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  33% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  44% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  55% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  66% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  77% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[   0% ] [90m[1mreimport[22m | 다시 가져오기 전 작업을 수행 중...[39m[0m
+[   0% ] [90m[1mreimport[22m | engine_9250_off.wav[39m[0m
+[  11% ] [90m[1mreimport[22m | engine_9250_on.wav[39m[0m
+[  22% ] [90m[1mreimport[22m | whine.wav[39m[0m
+[  33% ] [90m[1mreimport[22m | porsche_lod0.glb[39m[0m
+[   0% ] [90m[1mimport[22m | Started 씬 가져오기 (104 steps)[39m[0m
+[   0% ] [90m[1mimport[22m | 씬 가져오는 중...[39m[0m
+[   1% ] [90m[1mimport[22m | 커스텀 스크립트 실행 중...[39m[0m
+[  99% ] [90m[1mimport[22m | 저장 중...[39m[0m
+[92m[ DONE ][39m [1mimport[22m
+[0m
+[  44% ] [90m[1mreimport[22m | porsche_lod1.glb[39m[0m
+[   0% ] [90m[1mimport[22m | Started 씬 가져오기 (104 steps)[39m[0m
+[   0% ] [90m[1mimport[22m | 씬 가져오는 중...[39m[0m
+[   1% ] [90m[1mimport[22m | 커스텀 스크립트 실행 중...[39m[0m
+[  99% ] [90m[1mimport[22m | 저장 중...[39m[0m
+[92m[ DONE ][39m [1mimport[22m
+[0m
+[  55% ] [90m[1mreimport[22m | porsche_lod2.glb[39m[0m
+[   0% ] [90m[1mimport[22m | Started 씬 가져오기 (104 steps)[39m[0m
+[   0% ] [90m[1mimport[22m | 씬 가져오는 중...[39m[0m
+[   1% ] [90m[1mimport[22m | 커스텀 스크립트 실행 중...[39m[0m
+[  99% ] [90m[1mimport[22m | 저장 중...[39m[0m
+[92m[ DONE ][39m [1mimport[22m
+[0m
+[  66% ] [90m[1mreimport[22m | porsche_lod3.glb[39m[0m
+[   0% ] [90m[1mimport[22m | Started 씬 가져오기 (104 steps)[39m[0m
+[   0% ] [90m[1mimport[22m | 씬 가져오는 중...[39m[0m
+[   1% ] [90m[1mimport[22m | 커스텀 스크립트 실행 중...[39m[0m
+[  99% ] [90m[1mimport[22m | 저장 중...[39m[0m
+[92m[ DONE ][39m [1mimport[22m
+[0m
+[  77% ] [90m[1mreimport[22m | traffic_lod0.glb[39m[0m
+[   0% ] [90m[1mimport[22m | Started 씬 가져오기 (104 steps)[39m[0m
+[   0% ] [90m[1mimport[22m | 씬 가져오는 중...[39m[0m
+[   1% ] [90m[1mimport[22m | 커스텀 스크립트 실행 중...[39m[0m
+[  99% ] [90m[1mimport[22m | 저장 중...[39m[0m
+[92m[ DONE ][39m [1mimport[22m
+[0m
+[  88% ] [90m[1mreimport[22m | 애셋 가져오기 마무리 중...[39m[0m
+[92m[ DONE ][39m [1mreimport[22m
+[0m
+[   0% ] [90m[1mreimport[22m | Started 애셋 (다시) 가져오는 중 (8 steps)[39m[0m
+[   0% ] [90m[1mreimport[22m | 다시 가져오기 후 작업을 수행 중...[39m[0m
+[92m[ DONE ][39m [1mreimport[22m
+[0m
+[   0% ] [90m[1mloading_editor_layout[22m | Started 편집기를 불러오는 중 (5 steps)[39m[0m
+[   0% ] [90m[1mloading_editor_layout[22m | 편집기 레이아웃을 불러오는 중...[39m[0m
+[  16% ] [90m[1mloading_editor_layout[22m | 독을 불러오는 중...[39m[0m
+[92m[ DONE ][39m [1mloading_editor_layout[22m
+[0m
