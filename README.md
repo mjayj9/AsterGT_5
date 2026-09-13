@@ -79,6 +79,7 @@ AsterGT/              Godot 4.6.3 프로젝트
 
 work/                 제작·검증에 사용한 파이썬 스크립트, 로그, Pre-QA 산출물
 reports/              버전별 인계 보고서 (v4 · Pre-QA · v5)
+release/              v5 릴리스 안내 · 체크섬 · 시연 영상 (실행 파일 제외)
 ```
 
 ---
@@ -126,8 +127,11 @@ Blender 설치 없이도 실행됩니다 — 실행용 GLB가 `AsterGT/assets/`�
 
 ## 참고
 
-- 저장소에는 **소스와 에셋**만 포함했습니다. 빌드 산출물(`Windows-v5/` 실행 파일,
-  `.zip` 패키지, 시연 영상 `.mp4`), Godot export template 및 내려받은 도구,
-  중간 모델링 산출물(`gt3_v2`, `porsche_upgrade`)은 용량 문제로 제외했습니다.
+- 소스·에셋에 더해 릴리스 안내(`release/Windows-v5/`), 체크섬, 시연 영상(`.mp4`),
+  v5 충돌 시나리오 실행 데이터(`work/v5-collisions/`), 영상 검토 프레임(`work/video/`),
+  중간 산출물(`work/archived_intermediates/`)을 포함합니다.
+- `AsterGT-v5.exe`(약 190 MB)는 GitHub의 파일당 100 MB 제한을 넘어 포함하지 않았습니다.
+  `.zip` 패키지, Godot export template 및 내려받은 도구, 대용량 중간 모델링 산출물
+  (`gt3_v2`, `porsche_upgrade`), 실행별 사용자 프로필·셰이더 캐시도 제외했습니다.
 - 커밋 날짜는 원본 파일의 실제 수정 시각을 사용해 작업 순서를 반영했습니다.
 - v5는 기존 Pre-QA 후보에 대한 **GO 판정을 의미하지 않습니다.**
